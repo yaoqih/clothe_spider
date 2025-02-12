@@ -1,0 +1,155 @@
+{
+  "men": {
+    "Shirts": {
+      "Shirts": "https://www.italist.com/cn/men/clothing/shirts/148/"
+    },
+    "Suits": {
+      "Suits": "https://www.italist.com/cn/men/clothing/suits/149/"
+    },
+    "Coats & Jackets": {
+      "Blazers":"https://www.italist.com/cn/men/clothing/coats-jackets/blazers/137/",
+      "Coats": "https://www.italist.com/cn/men/clothing/coats-jackets/coats/140/",
+      "Down jackets": "https://www.italist.com/cn/men/clothing/coats-jackets/down-jackets/141/",
+      "Jackets": "https://www.italist.com/cn/men/clothing/coats-jackets/jackets/143/",
+      "Leather jackets": "https://www.italist.com/cn/men/clothing/coats-jackets/leather-jackets/139/",
+      "Raincoats": "https://www.italist.com/cn/men/clothing/coats-jackets/raincoats/142/",
+      "Vests": "https://www.italist.com/cn/men/clothing/coats-jackets/vests/138/"
+    },
+    "Fleeces & Tracksuits": {
+      "Fleeces": "https://www.italist.com/cn/men/clothing/fleeces-tracksuits/fleeces/164/",
+      "Sweat pants": "https://www.italist.com/cn/men/clothing/fleeces-tracksuits/sweat-pants/166/",
+      "Tracksuits": "https://www.italist.com/cn/men/clothing/fleeces-tracksuits/tracksuits/165/"
+    },
+    "Jeans": {
+      "Jeans": "https://www.italist.com/cn/men/clothing/jeans/126/"
+    },
+    "Pants": {
+      "Pants": "https://www.italist.com/cn/men/clothing/pants/pants/145/",
+      "Shorts": "https://www.italist.com/cn/men/clothing/pants/shorts/146/"
+    },
+    "Sweaters": {
+      "Cardigans": "https://www.italist.com/cn/men/clothing/sweaters/cardigans/153/",
+      "Sweaters": "https://www.italist.com/cn/men/clothing/sweaters/sweaters/154/"
+    },
+    "Swimwear": {
+      "Swimming trunks": "https://www.italist.com/cn/men/clothing/swimwear/swimming-trunks/156/",
+      "Towels": "https://www.italist.com/cn/men/clothing/swimwear/towels/292/"
+    },
+    "Topwear": {
+      "Polo shirts": "https://www.italist.com/cn/men/clothing/topwear/polo-shirts/159/",
+      "T-shirts": "https://www.italist.com/cn/men/clothing/topwear/t-shirts/161/",
+      "Tank tops": "https://www.italist.com/cn/men/clothing/topwear/tank-tops/162/"
+    },
+    "Underwear": {
+      "Knickers": "https://www.italist.com/cn/men/clothing/underwear/knickers/133/",
+      "Pajamas": "https://www.italist.com/cn/men/clothing/underwear/pajamas/132/",
+      "Robes": "https://www.italist.com/cn/men/clothing/underwear/robes/134/",
+      "Socks": "https://www.italist.com/cn/men/clothing/underwear/socks/135/"
+    }
+},
+  "women": {
+    "Coats & Jackets": {
+      "Blazers":"https://www.italist.com/cn/women/clothing/coats-jackets/blazers/29/",
+      "Coats": "https://www.italist.com/cn/women/clothing/coats-jackets/coats/32/",
+      "Down jackets": "https://www.italist.com/cn/women/clothing/coats-jackets/down-jackets/33/",
+      "Jackets": "https://www.italist.com/cn/women/clothing/coats-jackets/jackets/35/",
+      "Leather jackets": "https://www.italist.com/cn/women/clothing/coats-jackets/leather-jackets/31/",
+      "Raincoats": "https://www.italist.com/cn/women/clothing/coats-jackets/raincoats/34/",
+      "Vests": "https://www.italist.com/cn/women/clothing/coats-jackets/vests/30/"
+    },
+    "Dresses": {
+      "Dresses": "https://www.italist.com/cn/women/clothing/dresses/13/"
+    },
+    "Fleeces & Tracksuits": {
+      "Fleeces": "https://www.italist.com/cn/women/clothing/fleeces-tracksuits/fleeces/65/",
+      "Sweat pants": "https://www.italist.com/cn/women/clothing/fleeces-tracksuits/sweat-pants/67/",
+      "Tracksuits": "https://www.italist.com/cn/women/clothing/fleeces-tracksuits/tracksuits/66/"
+    },
+    "Jeans": {
+      "Jeans": "https://www.italist.com/cn/women/clothing/jeans/10/"
+    },
+    "Jumpsuits": {
+      "Jumpsuits": "https://www.italist.com/cn/women/clothing/jumpsuits/68/"
+    },
+    "Pants &Shorts": {
+      "Leggings": "https://www.italist.com/cn/women/clothing/pants-shorts/leggings/38/",
+      "Shorts": "https://www.italist.com/cn/women/clothing/pants-shorts/shorts/39/",
+      "Pants": "https://www.italist.com/cn/women/clothing/pants-shorts/pants/37/"
+    },
+    "Skirts": {
+      "Skirts": "https://www.italist.com/cn/women/clothing/skirts/45/"
+    },
+    "Suits": {
+      "Suits": "https://www.italist.com/cn/women/clothing/suits/48/"
+    },
+    "Sweaters": {
+      "Cardigans": "https://www.italist.com/cn/women/clothing/sweaters/cardigans/50/",
+      "Sweaters": "https://www.italist.com/cn/women/clothing/sweaters/sweaters/51/"
+    },
+    "Swimwear": {
+      "Bikinis": "https://www.italist.com/cn/women/clothing/swimwear/bikinis/54/",
+      "Cover-ups": "https://www.italist.com/cn/women/clothing/swimwear/cover-ups/55/",
+      "One-piece": "https://www.italist.com/cn/women/clothing/swimwear/one-piece/53/",
+      "Towels": "https://www.italist.com/cn/women/clothing/swimwear/towels/291/"
+    },
+    "Topwear":{
+      "Blouses": "https://www.italist.com/cn/women/clothing/topwear/blouses/44/",
+      "Polo shirts": "https://www.italist.com/cn/women/clothing/topwear/polo-shirts/58/",
+      "Shirts": "https://www.italist.com/cn/women/clothing/topwear/shirts/42/",
+      "Tshirts": "https://www.italist.com/cn/women/clothing/topwear/t-shirts/61/",
+      "Tank tops": "https://www.italist.com/cn/women/clothing/topwear/tank-tops/59/"
+    },
+    "Underwear & Nightwear": {
+      "Bodysuits": "https://www.italist.com/cn/women/clothing/underwear-nightwear/bodysuits/284/",
+      "Bras": "https://www.italist.com/cn/women/clothing/underwear-nightwear/bras/18/",
+      "Camisoles": "https://www.italist.com/cn/women/clothing/underwear-nightwear/camisoles/19/",
+      "Pajamas": "https://www.italist.com/cn/women/clothing/underwear-nightwear/pajamas/23/",
+      "Panties": "https://www.italist.com/cn/women/clothing/underwear-nightwear/panties/24/",
+      "Robes": "https://www.italist.com/cn/women/clothing/underwear-nightwear/robes/25/",
+      "Socks & tights": "https://www.italist.com/cn/women/clothing/underwear-nightwear/socks-&%20tights/27/"
+    }
+
+  },
+
+  "kids": {
+      "Baby Girls (0-36 M)": {
+        "Accessories & Gifts": "https://www.italist.com/cn/kids/baby-girls/accessories-gifts/349/",
+        "Bodysuits & Sets": "https://www.italist.com/cn/kids/baby-girls/clothing/bodysuits-sets/359/",
+        "Bottoms": "https://www.italist.com/cn/kids/baby-girls/clothing/bottoms/351/",
+        "Dresses": "https://www.italist.com/cn/kids/baby-girls/clothing/dresses/352/",
+        "Shoes": "https://www.italist.com/cn/kids/baby-girls/shoes/360/",
+        "Swimwear": "https://www.italist.com/cn/kids/baby-girls/clothing/swimwear/358/",
+        "Topwear": "https://www.italist.com/cn/kids/baby-girls/clothing/topwear/353/"
+      },
+      "Baby Boys (0-36 M)": {
+        "Accessories & Gifts": "https://www.italist.com/cn/kids/baby-boys/accessories-gifts/362/",
+        "Bodysuits & Sets": "https://www.italist.com/cn/kids/baby-boys/clothing/bodysuits-sets/371/",
+        "Bottoms": "https://www.italist.com/cn/kids/baby-boys/clothing/bottoms/364/",
+        "Shoes": "https://www.italist.com/cn/kids/baby-boys/shoes/372/",
+        "Swimwear": "https://www.italist.com/cn/kids/baby-boys/clothing/swimwear/370/",
+        "Topwear": "https://www.italist.com/cn/kids/baby-boys/clothing/topwear/365/"
+      },
+      "Girls (2-16 YRS)": {
+        "Accessories & Gifts": "https://www.italist.com/cn/kids/girls/accessories-gifts/386/",
+        "Bottoms": "https://www.italist.com/cn/kids/girls/clothing/bottoms/388/",
+        "Dresses": "https://www.italist.com/cn/kids/girls/clothing/dresses/389/",
+        "Jumpsuits": "https://www.italist.com/cn/kids/girls/clothing/jumpsuits/396/",
+        "Shoes": "https://www.italist.com/cn/kids/girls/shoes/398/",
+        "Swimwear": "https://www.italist.com/cn/kids/girls/clothing/swimwear/395/",
+        "Topwear": "https://www.italist.com/cn/kids/girls/clothing/topwear/390/",
+        "Underwear":"https://www.italist.com/cn/kids/girls/clothing/underwear/397/"
+      },
+      "Boys (2-16 YRS)": {
+        "Accessories & Gifts": "https://www.italist.com/cn/kids/boys/accessories-gifts/400/",
+        "Bottoms": "https://www.italist.com/cn/kids/boys/clothing/bottoms/402/",
+        "Jumpsuits": "https://www.italist.com/cn/kids/boys/clothing/jumpsuits/409/",
+        "Shoes": "https://www.italist.com/cn/kids/boys/shoes/412/",
+        "Suits": "https://www.italist.com/cn/kids/boys/clothing/suits/410/",
+        "Swimwear": "https://www.italist.com/cn/kids/boys/clothing/swimwear/408/",
+        "Topwear": "https://www.italist.com/cn/kids/boys/clothing/topwear/403//",
+        "Underwear":"https://www.italist.com/cn/kids/boys/399/"
+
+      }
+
+  }
+}

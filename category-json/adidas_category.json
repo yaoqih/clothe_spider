@@ -1,0 +1,30 @@
+{
+  "women": {
+    "T-Shirts & Other Tops": "https://www.adidas.com.hk/women/clothing/tshirts?rt=plp",
+    "Polos": "https://www.adidas.com.hk/women/clothing/polos?rt=plp",
+    "Sports Bras": "https://www.adidas.com.hk/women/clothing/sportbras?rt=plp",
+    "Sweatshirts & Hoodies": "https://www.adidas.com.hk/women/clothing/sweatshirtshoodies?rt=plp",
+    "Jackets": "https://www.adidas.com.hk/women/clothing/jackets?rt=plp",
+    "Tights": "https://www.adidas.com.hk/women/clothing/tights?rt=plp",
+    "Pants": "https://www.adidas.com.hk/women/clothing/pants?rt=plp",
+    "Shorts": "https://www.adidas.com.hk/women/clothing/shorts?rt=plp",
+    "Dresses": "https://www.adidas.com.hk/women/clothing/dresses?rt=plp",
+    "Skirts": "https://www.adidas.com.hk/women/clothing/skirts?rt=plp",
+    "Tank Tops": "https://www.adidas.com.hk/women/clothing/tanktops?rt=plp",
+    "Track Suits": "https://www.adidas.com.hk/women/clothing/tracksuits?rt=plp"
+  },
+  "men": {
+    "T-Shirts & Other Tops": "https://www.adidas.com.hk/men/clothing/tshirts?rt=plp",
+    "Polos": "https://www.adidas.com.hk/men/clothing/polos?rt=plp",
+    "Sweatshirts & Hoodies": "https://www.adidas.com.hk/men/clothing/sweatshirtshoodies?rt=plp",
+    "Jackets": "https://www.adidas.com.hk/men/clothing/jackets?rt=plp",
+    "Pants": "https://www.adidas.com.hk/men/clothing/pants?rt=plp",
+    "Shorts": "https://www.adidas.com.hk/men/clothing/shorts?rt=plp",
+    "Jerseys": "https://www.adidas.com.hk/men/clothing/jerseys?rt=plp",
+    "Tights": "https://www.adidas.com.hk/men/clothing/tights?rt=plp",
+    "Tank Tops": "https://www.adidas.com.hk/men/clothing/tanktops?rt=plp",
+    "Track Suits": "https://www.adidas.com.hk/men/clothing/tracksuits?rt=plp",
+    "Teamwear": "https://www.adidas.com.hk/teamwear?rt=plp"
+  }
+}
+

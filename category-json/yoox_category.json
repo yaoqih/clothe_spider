@@ -1,0 +1,263 @@
+{
+  "men": {
+    "Activewear": {
+      "Athletic leggings": "https://www.yoox.com/au/men/clothing/shoponline#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27lggngssp%27%5d%7d&season=X",
+      "Athletic pants": "https://www.yoox.com/au/men/shoponline/activewear_mc#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27pntlntt1%27%5d%7d&season=X",
+      "Athletic shorts": "https://www.yoox.com/au/men/shoponline/activewear_mc#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27pntlncns%27%5d%7d&season=X",
+      "Athletic sweatshirts": "https://www.yoox.com/au/men/shoponline/activewear_mc#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27flpmglsp%27%5d%7d&season=X",
+      "Athletic tops": "https://www.yoox.com/au/men/shoponline/activewear_mc#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27tpsprtv%27%5d%7d&season=X",
+      "Snow Wear": "https://www.yoox.com/au/men/shoponline/activewear_mc#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27ttsc%27%5d%7d&season=X",
+      "Swim costumes": "https://www.yoox.com/au/men/shoponline/activewear_mc#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27cstmdbgn%27%5d%7d&season=X",
+      "Windbreakers and softshell jackets": "https://www.yoox.com/au/men/shoponline/activewear_mc#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27gcchvnts%27%5d%7d&season=X"
+    },
+    "Coats & Jackets": {
+      "Biker jackets": "https://www.yoox.com/au/men/shoponline/t-shirts_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27bkr1%27%5d%7d&season=X",
+      "Blazers": "https://www.yoox.com/au/men/shoponline/t-shirts_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27gcc%27%5d%7d&season=X",
+      "Bombers": "https://www.yoox.com/au/men/shoponline/t-shirts_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27bmbr1%27%5d%7d&season=X",
+      "Cloaks": "https://www.yoox.com/au/men/shoponline/t-shirts_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27mntll%27%5d%7d&season=X",
+      "Coats": "https://www.yoox.com/au/men/shoponline/t-shirts_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27cpptt%27%5d%7d&season=X",
+      "Denim jackets": "https://www.yoox.com/au/men/shoponline/t-shirts_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27gbbttjns%27%5d%7d&season=X",
+      "Double breasted pea coat": "https://www.yoox.com/au/men/shoponline/t-shirts_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27cbn1%27%5d%7d&season=X",
+      "Duffle coats": "https://www.yoox.com/au/men/shoponline/t-shirts_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27mntgmr1%27%5d%7d&season=X",
+      "Faux Fur & Shearling": "https://www.yoox.com/au/men/shoponline/t-shirts_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27mntn2%27%5d%7d&season=X",
+      "Full-length jackets": "https://www.yoox.com/au/men/shoponline/t-shirts_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27sprbt%27%5d%7d&season=X",
+      "Jackets": "https://www.yoox.com/au/men/shoponline/t-shirts_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27gbbtt%27%5d%7d&season=X",
+      "Leather jackets": "https://www.yoox.com/au/men/shoponline/t-shirts_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27gbbttpll%27%5d%7d&season=X",
+      "Parkas": "https://www.yoox.com/au/men/shoponline/t-shirts_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27prk1%27%5d%7d&season=X",
+      "Rain coats": "https://www.yoox.com/au/men/shoponline/t-shirts_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27mprmbl%27%5d%7d&season=X",
+      "Shell jackets": "https://www.yoox.com/au/men/shoponline/t-shirts_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27pmn%27%5d%7d&season=X",
+      "Synthetic padding": "https://www.yoox.com/au/men/shoponline/t-shirts_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27pmnsnttc%27%5d%7d&season=X",
+      "Teddy Coats": "https://www.yoox.com/au/men/shoponline/t-shirts_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27pllccclg%27%5d%7d&season=X",
+      "Trench coats": "https://www.yoox.com/au/men/shoponline/t-shirts_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27trnch1%27%5d%7d&season=X",
+      "Vests": "https://www.yoox.com/au/men/shoponline/t-shirts_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27glt1%27%5d%7d&season=X"
+    },
+    "Jumpsuits and Overalls": {
+      "Athletic outfits": "https://www.yoox.com/au/men/shoponline/jeans%20and%20denim_mc#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27ttsprtv%27%5d%7d&season=X",
+      "Jumpsuits & one pieces": "https://www.yoox.com/au/men/shoponline/jeans%20and%20denim_mc#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27ttnpc%27%5d%7d&season=X",
+      "Overalls": "https://www.yoox.com/au/men/shoponline/jeans%20and%20denim_mc#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27slptt1%27%5d%7d&season=X"
+    },
+    "Shirts": {
+      "Checked shirts": "https://www.yoox.com/au/men/shoponline/t-shirts_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27cmcqdr%27%5d%7d&season=X",
+      "Denim shirts": "https://www.yoox.com/au/men/shoponline/t-shirts_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27cmcjns1%27%5d%7d&season=X",
+      "Linen shirts": "https://www.yoox.com/au/men/shoponline/t-shirts_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27cmcnln%27%5d%7d&season=X",
+      "Patterned shirts": "https://www.yoox.com/au/men/shoponline/t-shirts_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27cmcfntsm%27%5d%7d&season=X",
+      "Solid color shirts": "https://www.yoox.com/au/men/shoponline/t-shirts_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27cmctntnt%27%5d%7d&season=X",
+      "Striped shirts": "https://www.yoox.com/au/men/shoponline/t-shirts_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27cmcrgh%27%5d%7d&season=X",
+      "Tunics and kaftans": "https://www.yoox.com/au/men/shoponline/t-shirts_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27cftn%27%5d%7d&season=X"
+    },
+    "Skirts": {"Mini skirts": "https://www.yoox.com/au/men/shoponline/jeans%20and%20denim_mc#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27mngnn%27%5d%7d&season=X"},
+    "Suits and Blazers": {
+      "Blazers": "https://www.yoox.com/au/men/shoponline/jeans%20and%20denim_mc#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27gcc2%27%5d%7d&season=X",
+      "Suit": "https://www.yoox.com/au/men/shoponline/jeans%20and%20denim_mc#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27bt1%27%5d%7d&season=X",
+      "Suit vests": "https://www.yoox.com/au/men/shoponline/jeans%20and%20denim_mc#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27glt%27%5d%7d&season=X"
+    },
+    "Sweaters and Sweatshirts": {
+      "Cardigans": "https://www.yoox.com/au/men/shoponline/t-shirts_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27crdgn%27%5d%7d&season=X",
+      "Cashmere blends": "https://www.yoox.com/au/men/shoponline/t-shirts_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27mglncchm%27%5d%7d&season=X",
+      "Hooded sweatshirts": "https://www.yoox.com/au/men/shoponline/t-shirts_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27flpcncpp2%27%5d%7d&season=X",
+      "Sleeveless sweaters": "https://www.yoox.com/au/men/shoponline/t-shirts_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27mglglt%27%5d%7d&season=X",
+      "Sweaters": "https://www.yoox.com/au/men/shoponline/t-shirts_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27pllvr%27%5d%7d&season=X",
+      "Sweaters with zip": "https://www.yoox.com/au/men/shoponline/t-shirts_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27mglcnzp%27%5d%7d&season=X",
+      "Sweatshirts": "https://www.yoox.com/au/men/shoponline/t-shirts_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27flp1%27%5d%7d&season=X",
+      "Turtlenecks": "https://www.yoox.com/au/men/shoponline/t-shirts_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27dlcvt%27%5d%7d&season=X"
+    },
+    "Swimwear": {
+      "Beach towels & robes": "https://www.yoox.com/au/men/shoponline/jeans%20and%20denim_mc#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27tlmr%27%5d%7d&season=X",
+      "Swim briefs": "https://www.yoox.com/au/men/shoponline/jeans%20and%20denim_mc#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27slpmrmn%27%5d%7d&season=X",
+      "Swim shorts": "https://www.yoox.com/au/men/shoponline/jeans%20and%20denim_mc#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27bxrmrmn%27%5d%7d&season=X"
+    },
+    "T-Shirts and Tops": {
+      "Basic T-shirt": "https://www.yoox.com/au/men/shoponline/t-shirts_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27bsctshrt1%27%5d%7d&season=X",
+      "Evening tops": "https://www.yoox.com/au/men/shoponline/t-shirts_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27tpdsr1%27%5d%7d&season=X",
+      "Oversize-T-Shirts": "https://www.yoox.com/au/men/shoponline/t-shirts_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27vrszdtsh%27%5d%7d&season=X",
+      "Polo shirts": "https://www.yoox.com/au/men/shoponline/t-shirts_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27pl%27%5d%7d&season=X",
+      "Tank tops": "https://www.yoox.com/au/men/shoponline/t-shirts_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27cntt2%27%5d%7d&season=X",
+      "Tops": "https://www.yoox.com/au/men/shoponline/t-shirts_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27tp%27%5d%7d&season=X",
+      "T-shirts": "https://www.yoox.com/au/men/shoponline/t-shirts_c#/dept=clothingmen&gender=U&attributes=%7b%27ctgr%27%3a%5b%27tshrt%27%5d%7d&season=E"
+    },
+    "Underwear": {
+      "Boxers": "https://www.yoox.com/au/men/shoponline/jeans%20and%20denim_mc#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27bxrm%27%5d%7d&season=X",
+      "Briefs": "https://www.yoox.com/au/men/shoponline/jeans%20and%20denim_mc#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27slpmn%27%5d%7d&season=X",
+      "Robes": "https://www.yoox.com/au/men/shoponline/jeans%20and%20denim_mc#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27vstglmn%27%5d%7d&season=X",
+      "Short socks": "https://www.yoox.com/au/men/shoponline/jeans%20and%20denim_mc#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27clznmn%27%5d%7d&season=X",
+      "Sleepwear": "https://www.yoox.com/au/men/shoponline/jeans%20and%20denim_mc#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27pgmmn%27%5d%7d&season=X",
+      "Undershirts": "https://www.yoox.com/au/men/shoponline/jeans%20and%20denim_mc#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27tshrtntm1%27%5d%7d&season=X"
+    },
+    "Jeans and Denim": {
+      "Baggy": "https://www.yoox.com/au/men/shoponline/baggy_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27jnsbfrnd1%27%5d%7d&season=X",
+      "Bootcut Jeans": "https://www.yoox.com/au/men/shoponline/bootcut%20jeans_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27jnsbtct%27%5d%7d&season=X",
+      "Cropped jeans": "https://www.yoox.com/au/men/shoponline/cropped%20jeans_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27cprjns%27%5d%7d&season=X",
+      "Denim overalls": "https://www.yoox.com/au/men/shoponline/denim%20overalls_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27slpttjns%27%5d%7d&season=X",
+      "Denim pants": "https://www.yoox.com/au/men/shoponline/denim%20pants_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27pntlnjns%27%5d%7d&season=X",
+      "Denim shorts": "https://www.yoox.com/au/men/shoponline/denim%20shorts_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27shrtsjns%27%5d%7d&season=X",
+      "Skinny Jeans": "https://www.yoox.com/au/men/shoponline/skinny%20jeans_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27jnssknn1%27%5d%7d&season=X",
+      "Straight leg": "https://www.yoox.com/au/men/shoponline/straight%20leg_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27jnsstrgh%27%5d%7d&season=X",
+      "Wide & Flare": "https://www.yoox.com/au/men/shoponline/wide%20&%20flare_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27jnslrgh1%27%5d%7d&season=X"
+    },
+    "Pants": {
+      "5-pocket": "https://www.yoox.com/au/men/shoponline/5-pocket_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27tsch2%27%5d%7d&season=X",
+      "Cargo": "https://www.yoox.com/au/men/shoponline/cargo_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27crg1%27%5d%7d&season=X",
+      "Casual pants": "https://www.yoox.com/au/men/shoponline/casual%20pants_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27pntln1%27%5d%7d&season=X",
+      "Chinos": "https://www.yoox.com/au/men/shoponline/chinos_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27chns1%27%5d%7d&season=X",
+      "Cropped pants & culottes": "https://www.yoox.com/au/men/shoponline/cropped%20pants%20&%20culottes_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27pntlncpr%27%5d%7d&season=X",
+      "Dress pants": "https://www.yoox.com/au/men/shoponline/dress%20pants_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27pntlncls%27%5d%7d&season=X",
+      "Leggings": "https://www.yoox.com/au/men/shoponline/leggings_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27lggngs%27%5d%7d&season=X",
+      "Shorts & Bermuda": "https://www.yoox.com/au/men/shoponline/shorts%20&%20bermuda_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27shrts%27%5d%7d&season=X",
+      "Sweatpants": "https://www.yoox.com/au/men/shoponline/sweatpants_c#/dept=clothingmen&gender=U&page=1&attributes=%7b%27ctgr%27%3a%5b%27pntlnflp%27%5d%7d&season=X"
+    }
+  },
+
+  "women": {
+    "Activewear": {
+      "Athletic leggings": "https://www.yoox.com/au/women/shoponline/athletic%20leggings_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27lggngssp%27%5d%7d&season=X",
+      "Athletic pants": "https://www.yoox.com/au/women/shoponline/athletic%20pants_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27pntlntt1%27%5d%7d&season=X",
+      "Athletic shorts": "https://www.yoox.com/au/women/shoponline/athletic%20shorts_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27pntlncns%27%5d%7d&season=X",
+      "Athletic sweatshirts": "https://www.yoox.com/au/women/shoponline/athletic%20sweatshirts_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27flpmglsp%27%5d%7d&season=X",
+      "Athletic tops": "https://www.yoox.com/au/women/shoponline/athletic%20tops_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27tpsprtv%27%5d%7d&season=X",
+      "Snow Wear": "https://www.yoox.com/au/women/shoponline/snow%20wear_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27ttsc%27%5d%7d&season=X",
+      "Sports bras": "https://www.yoox.com/au/women/shoponline/sports%20bras_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27rggsnspr2%27%5d%7d&season=X",
+      "Swim costumes": "https://www.yoox.com/au/women/shoponline/swim%20costumes_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27cstmdbgn%27%5d%7d&season=X",
+      "Windbreakers and softshell jackets": "https://www.yoox.com/au/women/shoponline/windbreakers%20and%20softshell%20jackets_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27gcchvnts%27%5d%7d&season=X"
+    },
+    "Coats & Jackets": {
+      "Biker jackets": "https://www.yoox.com/au/women/shoponline/biker%20jackets_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27bkr1%27%5d%7d&season=X",
+      "Blazers": "https://www.yoox.com/au/women/shoponline/blazers_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27gcc%27%5d%7d&season=X",
+      "Bombers": "https://www.yoox.com/au/women/shoponline/bombers_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27bmbr1%27%5d%7d&season=X",
+      "Cloaks": "https://www.yoox.com/au/women/shoponline/cloaks_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27mntll%27%5d%7d&season=X",
+      "Coats": "https://www.yoox.com/au/women/shoponline/coats_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27cpptt%27%5d%7d&season=X",
+      "Denim jackets": "https://www.yoox.com/au/women/shoponline/denim%20jackets_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27gbbttjns%27%5d%7d&season=X",
+      "Double breasted pea coat": "https://www.yoox.com/au/women/shoponline/double%20breasted%20pea%20coat_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27cbn1%27%5d%7d&season=X",
+      "Duffle coats": "https://www.yoox.com/au/women/shoponline/duffle%20coats_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27mntgmr1%27%5d%7d&season=X",
+      "Faux Fur & Shearling": "https://www.yoox.com/au/women/shoponline/faux%20fur%20&%20shearling_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27mntn2%27%5d%7d&season=X",
+      "Full-length jackets": "https://www.yoox.com/au/women/shoponline/full-length%20jackets_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27sprbt%27%5d%7d&season=X",
+      "Jackets": "https://www.yoox.com/au/women/shoponline/jackets_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27gbbtt%27%5d%7d&season=X",
+      "Leather jackets": "https://www.yoox.com/au/women/shoponline/leather%20jackets_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27gbbttpll%27%5d%7d&season=X",
+      "Parkas": "https://www.yoox.com/au/women/shoponline/parkas_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27prk1%27%5d%7d&season=X",
+      "Rain coats": "https://www.yoox.com/au/women/shoponline/rain%20coats_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27mprmbl%27%5d%7d&season=X",
+      "Shell jackets": "https://www.yoox.com/au/women/shoponline/shell%20%20jackets_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27pmn%27%5d%7d&season=X",
+      "Synthetic padding": "https://www.yoox.com/au/women/shoponline/synthetic%20padding_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27pmnsnttc%27%5d%7d&season=X",
+      "Teddy Coats": "https://www.yoox.com/au/women/shoponline/teddy%20coats_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27pllccclg%27%5d%7d&season=X",
+      "Trench coats": "https://www.yoox.com/au/women/shoponline/trench%20coats_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27trnch1%27%5d%7d&season=X",
+      "Vests": "https://www.yoox.com/au/women/shoponline/vests_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27glt1%27%5d%7d&season=X"
+    },
+    "Dresses": {
+      "Blazer dresses": "https://www.yoox.com/au/women/shoponline/blazer%20dresses_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27blzrdrss%27%5d%7d&season=X",
+      "Denim dresses": "https://www.yoox.com/au/women/shoponline/denim%20dresses_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27vsttnjns%27%5d%7d&season=X",
+      "Elegant dresses": "https://www.yoox.com/au/women/shoponline/elegant%20dresses_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27prtdrss%27%5d%7d&season=X",
+      "Long dresses": "https://www.yoox.com/au/women/shoponline/long%20dresses_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27vsttlng%27%5d%7d&season=X",
+      "Midi dresses": "https://www.yoox.com/au/women/shoponline/midi%20dresses_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27vsttgncc%27%5d%7d&season=X",
+      "Office dresses": "https://www.yoox.com/au/women/shoponline/office%20dresses_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27vsttprlf%27%5d%7d&season=X",
+      "One-shoulder dresses": "https://www.yoox.com/au/women/shoponline/one-shoulder%20dresses_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27vsttmnsp1%27%5d%7d&season=X",
+      "Pleated dresses": "https://www.yoox.com/au/women/shoponline/pleated%20dresses_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27vsttplss1%27%5d%7d&season=X",
+      "Sequin dresses": "https://www.yoox.com/au/women/shoponline/sequin%20dresses_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27vsttpllt%27%5d%7d&season=X",
+      "Sheath dresses": "https://www.yoox.com/au/women/shoponline/sheath%20dresses_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27vstttbn%27%5d%7d&season=X",
+      "Shirt dresses": "https://www.yoox.com/au/women/shoponline/shirt%20dresses_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27vsttchms%27%5d%7d&season=X",
+      "Short dresses": "https://www.yoox.com/au/women/shoponline/short%20dresses_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27vsttcrt%27%5d%7d&season=X",
+      "Silk dresses": "https://www.yoox.com/au/women/shoponline/silk%20dresses_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27vsttnst%27%5d%7d&season=X",
+      "Slip dresses": "https://www.yoox.com/au/women/shoponline/slip%20dresses_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27slpdrss5%27%5d%7d&season=X",
+      "Special occasion dresses": "https://www.yoox.com/au/women/shoponline/special%20occasion%20dresses_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27vsttcrmn%27%5d%7d&season=X",
+      "Summer dresses": "https://www.yoox.com/au/women/shoponline/summer%20dresses_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27vsttmr%27%5d%7d&season=X",
+      "Sweater Dresses": "https://www.yoox.com/au/women/shoponline/sweater%20dresses_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27vsttnmgl%27%5d%7d&season=X",
+      "Wrap dresses": "https://www.yoox.com/au/women/shoponline/wrap%20dresses_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27vsttprtf1%27%5d%7d&season=X"
+    },
+    "Jeans and Denim": {
+      "Baggy": "https://www.yoox.com/au/women/shoponline/baggy_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27jnsbfrnd1%27%5d%7d&season=X",
+      "Bootcut Jeans": "https://www.yoox.com/au/women/shoponline/bootcut%20jeans_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27jnsbtct%27%5d%7d&season=X",
+      "Cropped jeans": "https://www.yoox.com/au/women/shoponline/cropped%20jeans_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27cprjns%27%5d%7d&season=X",
+      "Denim overalls": "https://www.yoox.com/au/women/shoponline/denim%20overalls_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27slpttjns%27%5d%7d&season=X",
+      "Denim pants": "https://www.yoox.com/au/women/shoponline/denim%20pants_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27pntlnjns%27%5d%7d&season=X",
+      "Denim shorts": "https://www.yoox.com/au/women/shoponline/denim%20shorts_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27shrtsjns%27%5d%7d&season=X",
+      "Skinny Jeans": "https://www.yoox.com/au/women/shoponline/skinny%20jeans_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27jnssknn1%27%5d%7d&season=X",
+      "Straight leg": "https://www.yoox.com/au/women/shoponline/straight%20leg_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27jnsstrgh%27%5d%7d&season=X",
+      "Wide & Flare": "https://www.yoox.com/au/women/shoponline/wide%20&%20flare_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27jnslrgh1%27%5d%7d&season=X"
+    },
+    "Jumpsuits and Overalls": {
+      "Athletic outfits": "https://www.yoox.com/au/women/shoponline/athletic%20outfits_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27ttsprtv%27%5d%7d&season=X",
+      "Jumpsuits & one pieces": "https://www.yoox.com/au/women/shoponline/jumpsuits-one%20pieces_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27ttnpc%27%5d%7d&season=X",
+      "Overalls": "https://www.yoox.com/au/women/shoponline/overalls_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27slptt1%27%5d%7d&season=X"
+    },
+    "Pants": {
+      "Cargo": "https://www.yoox.com/au/women/shoponline/cargo_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27crg1%27%5d%7d&season=X",
+      "Casual pants": "https://www.yoox.com/au/women/shoponline/casual%20pants_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27pntln1%27%5d%7d&season=X",
+      "Cropped pants & culottes": "https://www.yoox.com/au/women/shoponline/cropped%20pants%20&%20culottes_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27pntlncpr%27%5d%7d&season=X",
+      "Dress pants": "https://www.yoox.com/au/women/shoponline/dress%20pants_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27pntlncls%27%5d%7d&season=X",
+      "Flared pants": "https://www.yoox.com/au/women/shoponline/flared%20pants_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27pntlncmp1%27%5d%7d&season=X",
+      "Leather pants": "https://www.yoox.com/au/women/shoponline/leather%20pants_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27pntlnpll1%27%5d%7d&season=X",
+      "Leggings": "https://www.yoox.com/au/women/shoponline/leggings_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27lggngs%27%5d%7d&season=X",
+      "Palazzo pants": "https://www.yoox.com/au/women/shoponline/palazzo%20pants_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27pntlnplz%27%5d%7d&season=X",
+      "Shorts & Bermuda": "https://www.yoox.com/au/women/shoponline/shorts%20&%20bermuda_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27shrts%27%5d%7d&season=X",
+      "Sweatpants": "https://www.yoox.com/au/women/shoponline/sweatpants_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27pntlnflp%27%5d%7d&season=X"
+    },
+    "Shirts": {
+      "Blouses": "https://www.yoox.com/au/women/shoponline/blouses_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27bls%27%5d%7d&season=X",
+      "Checked shirts": "https://www.yoox.com/au/women/shoponline/checked%20shirts_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27cmcqdr%27%5d%7d&season=X",
+      "Denim shirts": "https://www.yoox.com/au/women/shoponline/denim%20shirts_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27cmcjns1%27%5d%7d&season=X",
+      "Floral shirts & blouses": "https://www.yoox.com/au/women/shoponline/floral%20shirts%20&%20blouses_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27cmcblsfr%27%5d%7d&season=X",
+      "Lace shirts & blouses": "https://www.yoox.com/au/women/shoponline/lace%20shirts%20&%20blouses_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27cmcblsnp%27%5d%7d&season=X",
+      "Linen shirts": "https://www.yoox.com/au/women/shoponline/linen%20shirts_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27cmcnln%27%5d%7d&season=X",
+      "Patterned shirts & blouses": "https://www.yoox.com/au/women/shoponline/patterned%20shirts%20&%20blouses_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27cqmcblsf%27%5d%7d&season=X",
+      "Shirts & blouses with bow": "https://www.yoox.com/au/women/shoponline/shirts%20&%20blouses%20with%20bow_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27cmcblscl%27%5d%7d&season=X",
+      "Silk shirts & blouses": "https://www.yoox.com/au/women/shoponline/silk%20shirts%20&%20blouses_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27cmctpst%27%5d%7d&season=X",
+      "Solid color shirts & blouses": "https://www.yoox.com/au/women/shoponline/solid%20color%20shirts%20&%20blouses_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27cmcblstn%27%5d%7d&season=X",
+      "Striped shirts": "https://www.yoox.com/au/women/shoponline/striped%20shirts_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27cmcrgh%27%5d%7d&season=X",
+      "Tunics and kaftans": "https://www.yoox.com/au/women/shoponline/tunics%20and%20kaftans_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27cftn%27%5d%7d&season=X"
+    },
+    "Skirts": {
+      "Denim skirts": "https://www.yoox.com/au/women/shoponline/denim%20skirts_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27gnnjns1%27%5d%7d&season=X",
+      "Maxi Skirts": "https://www.yoox.com/au/women/shoponline/maxi%20skirts_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27gnnlng%27%5d%7d&season=X",
+      "Midi skirts": "https://www.yoox.com/au/women/shoponline/midi%20skirts_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27gnngncch%27%5d%7d&season=X",
+      "Mini skirts": "https://www.yoox.com/au/women/shoponline/mini%20skirts_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27mngnn%27%5d%7d&season=X"
+    },
+    "Suits and Blazers": {
+      "Blazers": "https://www.yoox.com/au/women/shoponline/blazers_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27gcc1%27%5d%7d&season=X",
+      "Suit": "https://www.yoox.com/au/women/shoponline/outfits_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27cmpsé%27%5d%7d&season=X",
+      "Suit vests": "https://www.yoox.com/au/women/shoponline/suits_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27tllr%27%5d%7d&season=X"
+    },
+    "Sweaters and Sweatshirts": {
+      "Cardigans": "https://www.yoox.com/au/women/shoponline/cardigans_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27crdgn%27%5d%7d&season=X",
+      "Cashmere blends": "https://www.yoox.com/au/women/shoponline/cashmere%20blends_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27mglncchm%27%5d%7d&season=X",
+      "Hooded sweatshirts": "https://www.yoox.com/au/women/shoponline/hooded%20sweatshirts_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27flpcncpp2%27%5d%7d&season=X",
+      "Shrugs": "https://www.yoox.com/au/women/shoponline/shrugs_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27cprspll1%27%5d%7d&season=X",
+      "Sleeveless sweaters": "https://www.yoox.com/au/women/shoponline/sleeveless%20sweaters_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27mglglt%27%5d%7d&season=X",
+      "Sweaters": "https://www.yoox.com/au/women/shoponline/sweaters_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27pllvr%27%5d%7d&season=X",
+      "Sweatshirts": "https://www.yoox.com/au/women/shoponline/sweatshirts_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27flp1%27%5d%7d&season=X",
+      "Turtlenecks": "https://www.yoox.com/au/women/shoponline/turtlenecks_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27dlcvt%27%5d%7d&season=X",
+      "Twin sets": "https://www.yoox.com/au/women/shoponline/twin%20sets_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27twnst%27%5d%7d&season=X"
+    },
+    "Swimwear": {
+      "Beach towels & robes": "https://www.yoox.com/au/women/shoponline/beach%20towels%20&%20robes_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27tlmr%27%5d%7d&season=X",
+      "Bikinis": "https://www.yoox.com/au/women/shoponline/bikinis_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27bkn%27%5d%7d&season=X",
+      "Cover-ups": "https://www.yoox.com/au/women/shoponline/cover-ups_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27cprcstm%27%5d%7d&season=X",
+      "One-piece swimsuits": "https://www.yoox.com/au/women/shoponline/one-piece%20swimsuits_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27cstmntr%27%5d%7d&season=X"
+    },
+    "T-Shirts and Tops": {
+      "Basic T-shirt": "https://www.yoox.com/au/women/shoponline/basic%20t-shirt_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27bsctshrt1%27%5d%7d&season=X",
+      "Bodysuits": "https://www.yoox.com/au/women/shoponline/bodysuits_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27tpbd%27%5d%7d&season=X",
+      "Bustiers": "https://www.yoox.com/au/women/shoponline/bustiers_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27bstr1%27%5d%7d&season=X",
+      "Camis": "https://www.yoox.com/au/women/shoponline/camis_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27cmsl%27%5d%7d&season=X",
+      "Crop tops": "https://www.yoox.com/au/women/shoponline/crop%20tops_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27crptp1%27%5d%7d&season=X",
+      "Evening tops": "https://www.yoox.com/au/women/shoponline/evening%20tops_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27tpdsr1%27%5d%7d&season=X",
+      "Off-the-shoulder tops": "https://www.yoox.com/au/women/shoponline/off-the-shoulder%20tops_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27cldshldr1%27%5d%7d&season=X",
+      "One-shoulder tops": "https://www.yoox.com/au/women/shoponline/one-shoulder%20tops_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27tpmnspll%27%5d%7d&season=X",
+      "Oversize-T-Shirts": "https://www.yoox.com/au/women/shoponline/oversize-t-shirts_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27vrszdtsh%27%5d%7d&season=X",
+      "Polo shirts": "https://www.yoox.com/au/women/shoponline/polo%20shirts_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27pl%27%5d%7d&season=X",
+      "Silk tops": "https://www.yoox.com/au/women/shoponline/silk%20tops_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27tpnst%27%5d%7d&season=X",
+      "Tank tops": "https://www.yoox.com/au/women/shoponline/tank%20tops_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27cntt2%27%5d%7d&season=X",
+      "Tops": "https://www.yoox.com/au/women/shoponline/tops_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27tp%27%5d%7d&season=X",
+      "T-shirts": "https://www.yoox.com/au/women/shoponline/t-shirts_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27tshrt%27%5d%7d&season=X"
+    },
+    "Underwear": {
+      "Bras": "https://www.yoox.com/au/women/shoponline/bras_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27rggsn%27%5d%7d&season=X",
+      "Briefs": "https://www.yoox.com/au/women/shoponline/briefs_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27slp%27%5d%7d&season=X",
+      "Bustiers, corsets &Suspenders": "https://www.yoox.com/au/women/shoponline/bustiers,%20corsets%20&%20suspenders_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27bstr%27%5d%7d&season=X",
+      "Dressing gowns & bathrobes": "https://www.yoox.com/au/women/shoponline/dressing%20gowns%20&%20bathrobes_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27vstgl%27%5d%7d&season=X",
+      "Lingerie bodysuits": "https://www.yoox.com/au/women/shoponline/lingerie%20bodysuits_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27bd%27%5d%7d&season=X",
+      "Sleepwear": "https://www.yoox.com/au/women/shoponline/sleepwear_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27pgm%27%5d%7d&season=X",
+      "Slips": "https://www.yoox.com/au/women/shoponline/slips_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27sttvst%27%5d%7d&season=X",
+      "Socks & tights": "https://www.yoox.com/au/women/shoponline/socks%20&%20tights_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27clz%27%5d%7d&season=X",
+      "Thongs": "https://www.yoox.com/au/women/shoponline/thongs_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27przm%27%5d%7d&season=X",
+      "Undershirts": "https://www.yoox.com/au/women/shoponline/undershirts_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27tshrtntm%27%5d%7d&season=X",
+      "Underwear sets": "https://www.yoox.com/au/women/shoponline/underwear%20sets_c#/dept=clothingwomen&gender=D&page=1&attributes=%7b%27ctgr%27%3a%5b%27crdnt%27%5d%7d&season=X"
+    }
+  }
+}

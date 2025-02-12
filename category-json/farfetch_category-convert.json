@@ -1,0 +1,213 @@
+{
+  "women": {
+    "Tops": {
+      "Cardigans": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136147",
+      "Blouses": "",
+      "Hoodies": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136157",
+      "Polo Tops": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136093",
+      "Sweaters": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136149",
+      "Shirts": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136099",
+      "T-Shirts & Jersey Shirts": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136091",
+      "Vests & Tank Tops": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136137",
+      "Tunic Tops & Kaftans": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136466"
+    },
+    "Beachwear": {
+      "Beach Accessories": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136296",
+      "Beach Cover-Ups": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136298",
+      "Beach Dresses": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136295",
+      "Bikinis": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136294",
+      "One-Pieces": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136300"
+    },
+    "Coats": {
+      "Capes": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136238",
+      "Double Breasted & Peacoats": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136239",
+      "Faux Fur & Shearling Coats": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136240",
+      "Leather Coats": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136241",
+      "Military Coats": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136242",
+      "Oversized Coats": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136497",
+      "Parkas": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136242",
+      "Single Breasted Coats": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136481",
+      "Irench Coats & Raincoats": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136244"
+    },
+    "Denim": {
+      "Bootcut Jeans": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136177",
+      "Boyfriend Jeans": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136185",
+      "Cropped Jeans": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136257",
+      "Denim Jackets": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136258",
+      "Denim Leggings": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136259",
+      "Denim Skirts": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136262",
+      "Flares & Bell Bottom Jeans": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136183",
+      "Jean Shorts": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136261",
+      "Skinny Jeans": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136175",
+      "Straight-Leg Jeans": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136179",
+      "Tapered Jeans": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136187",
+      "Wide-Leg Jeans": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136181"
+    },
+    "Jackets": {
+      "Biker Jackets": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136228",
+      "Blazers": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136229",
+      "Capes": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136230",
+      "Cropped Jackets": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136482",
+      "Denim Jackets": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136231",
+      "Down Jackets": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136235",
+      "Faux Fur & Shearling Jackets": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136495",
+      "Fitted Jackets": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136491",
+      "Leather Jackets": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136232",
+      "Military Jackets": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136233",
+      "Oversized Jackets": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136234",
+      "Tweed Jackets": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136490",
+      "Varsity Jackets": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136236",
+      "Waistcoats & Gilets": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136237"
+    },
+    "Knits": {
+      "Cardi-Coats": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136246",
+      "Cardigans": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136247",
+      "Knitted Skirts": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136250",
+      "Knitted Sweaters": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136251",
+      "Knitted Tops": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136252",
+      "Knitted Trousers": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136249",
+      "Sweater Dresses": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136248"
+    },
+    "Dresses": {
+      "Bridal Dresses": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136195",
+      "Cocktail, & Party Dresses": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136193",
+      "Day Dresses": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136189",
+      "Evening Dresses": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136191",
+      "Sundresses": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136225"
+    },
+    "Rompers": {
+      "Full Length": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136254",
+      "Playsuits": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136255"
+    },
+    "Shorts": {
+      "Knee-Length Shorts": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136275",
+      "Leather & Faux Leather Shorts": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=141244",
+      "Short & Mini Shorts": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=141569",
+      "Short Shorts": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136274",
+      "Tailored Shorts": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=141436"
+    },
+    "Tailoring": {
+      "Evening Suits": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136280",
+      "Suit Jackets": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136281",
+      "Suit Skirts": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136282",
+      "Suit Trousers": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136284",
+      "Trouser Suits": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136283"
+    },
+    "Pants": {
+      "Cropped Pants": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136263",
+      "Flared & BellBottom Pants": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136264",
+      "High Waisted Pants": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136265",
+      "Leggings": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136089",
+      "Skinny Pants": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136267",
+      "Slacks": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136270",
+      "Slim Pants": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136268",
+      "Straight-Leg Pants": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136269",
+      "Sweatpants": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136272",
+      "Tapered Pants": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136271",
+      "Wide-Leg Pants": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136273"
+    },
+    "Skirts": {
+      "ALine Skirts": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136103",
+      "Asymmetric & Draped Skirts": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136105",
+      "Fitted Skirts": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136488",
+      "Full Skirts": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136279",
+      "High-Waisted Skirts": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136107",
+      "Pencil Skirts": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136276",
+      "Pleated Skirts": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136277",
+      "Straight Skirts": "https://www.farfetch.cn/ca/shopping/women/clothing-1/items.aspx?page=1&view=96&sort=3&category=136278"
+    }
+  },
+  "men": {
+    "Coats": {
+      "Double Breasted Coats": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136412",
+      "Down Coats": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136416",
+      "Duffle Coats": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136415",
+      "leather Coats": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136414",
+      "Parkas": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136417",
+      "Peacoats": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=139363",
+      "Raincoats": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136413",
+      "Single Breasted Coats": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136418",
+      "Trench Coats": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136419"
+    },
+    "Denim": {
+      "Bootcut Jeans": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136420",
+      "Cropped Jeans": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136421",
+      "Denim Shorts": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136431",
+      "Drop-Crotch Jeans": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136422",
+      "Regular & Straight-Leg Jeans": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136424",
+      "Relaxed Fit Jeans": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136423",
+      "Skinny Jeans": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136425",
+      "Slim-Fit Jeans": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136426",
+      "Tapered Jeans": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136427",
+      "Wide-Leg Jeans": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136428"
+    },
+    "Jackets": {
+      "Biker Jackets": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136400",
+      "Blazers": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136402",
+      "Bomber Jackets": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136468",
+      "Denim Jackets": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136403",
+      "Down Jackets": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136407",
+      "Hooded Jackets": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136404",
+      "Leather Jackets": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136405",
+      "Lightweight Jackets": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136401",
+      "Military Jackets": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136406",
+      "Shirt Jackets": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136408",
+      "Sport Jackets & Windbreakers": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136409",
+      "Suit & Dinner Jackets": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136410",
+      "Waistcoats & Gilets": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136411"
+    },
+    "Jumpsuits": {
+      "Jumpsuits": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136455"
+    },
+    "Polo Shirts": {
+      "Polo Shirts": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136333"
+    },
+    "Shirts": {
+      "Shirts": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136331"
+    },
+    "Suits": {
+      "Double Breasted Suits": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=139847",
+      "Single Breasted Suits": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136451",
+      "Suit Jackets": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136453",
+      "Tuxedos & Dinner Suits": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136452"
+    },
+    "Sweatshirts & Knitwear": {
+      "Cardigans": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136399",
+      "Hoodies": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136398",
+      "Knitted Sweaters": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136396",
+      "Sweatshirts": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136397"
+    },
+    "T-Shirts & Vests": {
+      "T-Shirts": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136394",
+      "Vests & Tank Tops": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136395"
+    },
+    "Swimwear": {
+      "Beach Accessories": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136461",
+      "Swim & Board Shorts": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136465",
+      "Swimming Trunks": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136463"
+    },
+    "Shorts": {
+      "Bermuda Shorts": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136443",
+      "Cargo Shorts": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136444",
+      "Deck Shorts": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136446",
+      "Denim Shorts": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136447",
+      "Drop-Crotch Shorts": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136448",
+      "Khaki Shorts": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136445",
+      "Tailored Shorts": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136449",
+      "Track & Running Shorts": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136450"
+    },
+    "Pants": {
+      "Chinos": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136432",
+      "Cropped Pants": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136433",
+      "Drop Crotch Pants": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136434",
+      "Legging": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136435",
+      "Loose Fit Pants": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136436",
+      "Regular-Fit & Straight Leg Pants": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136437",
+      "Skinny Pants": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136438",
+      "Sweatpants": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136441",
+      "Tailored Pants": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136439",
+      "Tapered Pants": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136440",
+      "Wide Leg Pants": "https://www.farfetch.cn/ca/shopping/men/clothing-2/items.aspx?page=1&view=96&sort=3&category=136442"
+    }
+  }
+}

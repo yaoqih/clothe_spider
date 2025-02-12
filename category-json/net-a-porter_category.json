@@ -1,0 +1,145 @@
+{
+  "women": {
+    "Coats and Jackets": {
+      "Belted Coats": "https://www.net-a-porter.com/en-jp/shop/clothing/coats-and-jackets/belted-coats",
+      "Blazers": "https://www.net-a-porter.com/en-jp/shop/clothing/coats-and-jackets/blazers",
+      "Capes": "https://www.net-a-porter.com/en-jp/shop/clothing/coats-and-jackets/capes",
+      "Denim Jackets": "https://www.net-a-porter.com/en-jp/shop/clothing/coats-and-jackets/denim-jackets",
+      "Double-Breasted": "https://www.net-a-porter.com/en-jp/shop/clothing/coats-and-jackets/double-breasted",
+      "Faux Fur And Shearling": "https://www.net-a-porter.com/en-jp/shop/clothing/coats-and-jackets/faux-fur-and-shearling",
+      "Leather Jackets": "https://www.net-a-porter.com/en-jp/shop/clothing/coats-and-jackets/leather-jackets",
+      "Overcoats": "https://www.net-a-porter.com/en-jp/shop/clothing/coats-and-jackets/overcoats",
+      "Quilted And Puffer": "https://www.net-a-porter.com/en-jp/shop/clothing/coats-and-jackets/quilted-and-puffer",
+      "Shirt And Utility Jackets": "https://www.net-a-porter.com/en-jp/shop/clothing/coats-and-jackets/shirt-and-utility-jackets",
+      "Single Breasted": "https://www.net-a-porter.com/en-jp/shop/clothing/coats-and-jackets/single-breasted",
+      "Trench Coats": "https://www.net-a-porter.com/en-jp/shop/clothing/coats-and-jackets/trench-coats",
+      "Vests And Gilets": "https://www.net-a-porter.com/en-jp/shop/clothing/coats-and-jackets/vests-and-gilets",
+      "Wool Coats": "https://www.net-a-porter.com/en-jp/shop/clothing/coats-and-jackets/wool-coats"
+    },
+    "Denim": {
+      "Denim Dresses": "https://www.net-a-porter.com/en-jp/shop/clothing/denim/denim-dresses",
+      "Denim Jackets": "https://www.net-a-porter.com/en-jp/shop/clothing/denim/denim-jackets",
+      "Denim Jumpsuits and Playsuits": "https://www.net-a-porter.com/en-jp/shop/clothing/denim/denim-jumpsuits-and-playsuits",
+      "Denim Pants": "https://www.net-a-porter.com/en-jp/shop/clothing/denim/denim-pants",
+      "Denim Shorts": "https://www.net-a-porter.com/en-jp/shop/clothing/denim/denim-shorts",
+      "Denim Skirts": "https://www.net-a-porter.com/en-jp/shop/clothing/denim/denim-skirts",
+      "Denim Tops": "https://www.net-a-porter.com/en-jp/shop/clothing/denim/denim-tops"
+    },
+    "Dresses": {
+      "Beach Dresses": "https://www.net-a-porter.com/en-jp/shop/clothing/dresses/beach-dresses",
+      "Bridal Dresses": "https://www.net-a-porter.com/en-jp/shop/clothing/dresses/bridal-dresses",
+      "Day Dresses": "https://www.net-a-porter.com/en-jp/shop/clothing/dresses/day-dresses",
+      "Embellished Dresses": "https://www.net-a-porter.com/en-jp/shop/clothing/dresses/embellished-dresses",
+      "Evening Dresses": "https://www.net-a-porter.com/en-jp/shop/clothing/dresses/evening-dresses",
+      "Floral Dresses": "https://www.net-a-porter.com/en-jp/shop/clothing/dresses/floral-dresses",
+      "Gowns": "https://www.net-a-porter.com/en-jp/shop/clothing/dresses/gowns",
+      "Kaftan Dresses": "https://www.net-a-porter.com/en-jp/shop/clothing/dresses/kaftan-dresses",
+      "Knit Dresses": "https://www.net-a-porter.com/en-jp/shop/clothing/dresses/knit-dresses",
+      "Maxi Dresses": "https://www.net-a-porter.com/en-jp/shop/clothing/dresses/maxi-dresses",
+      "Midi Dresses": "https://www.net-a-porter.com/en-jp/shop/clothing/dresses/midi-dresses",
+      "Mini Dresses": "https://www.net-a-porter.com/en-jp/shop/clothing/dresses/mini-dresses",
+      "Modest Dresses": "https://www.net-a-porter.com/en-jp/shop/clothing/dresses/modest-dresses",
+      "Off The Shoulder Dresses": "https://www.net-a-porter.com/en-jp/shop/clothing/dresses/off-the-shoulder-dresses",
+      "Party Dresses": "https://www.net-a-porter.com/en-jp/shop/clothing/dresses/party-dresses",
+      "Shirt Dresses": "https://www.net-a-porter.com/en-jp/shop/clothing/dresses/shirt-dresses",
+      "Slip Dresses": "https://www.net-a-porter.com/en-jp/shop/clothing/dresses/slip-dresses",
+      "Wrap Dresses": "https://www.net-a-porter.com/en-jp/shop/clothing/dresses/wrap-dresses"
+    },
+    "Jeans": {
+      "Boyfriend": "https://www.net-a-porter.com/en-jp/shop/clothing/jeans/boyfriend",
+      "Flared": "https://www.net-a-porter.com/en-jp/shop/clothing/jeans/flared",
+      "Skinny Leg": "https://www.net-a-porter.com/en-jp/shop/clothing/jeans/skinny-leg",
+      "Slim Leg": "https://www.net-a-porter.com/en-jp/shop/clothing/jeans/slim-leg",
+      "Straight Leg": "https://www.net-a-porter.com/en-jp/shop/clothing/jeans/straight-leg",
+      "Tapered": "https://www.net-a-porter.com/en-jp/shop/clothing/jeans/tapered",
+      "Wide Leg": "https://www.net-a-porter.com/en-jp/shop/clothing/jeans/wide-leg"
+    },
+    "Jumpsuits and Playsuits": {
+      "Jumpsuits": "https://www.net-a-porter.com/en-jp/shop/clothing/jumpsuits-and-playsuits/jumpsuits",
+      "Playsuits": "https://www.net-a-porter.com/en-jp/shop/clothing/jumpsuits-and-playsuits/playsuits"
+    },
+    "Knitwear": {
+      "Cardigan": "https://www.net-a-porter.com/en-jp/shop/clothing/knitwear/cardigan",
+      "Sweater": "https://www.net-a-porter.com/en-jp/shop/clothing/knitwear/sweater"
+    },
+    "Lingerie": {
+      "Bodysuits": "https://www.net-a-porter.com/en-jp/shop/lingerie/bodysuits",
+      "Bras": "https://www.net-a-porter.com/en-jp/shop/lingerie/bras",
+      "Briefs": "https://www.net-a-porter.com/en-jp/shop/lingerie/briefs",
+      "Camisoles and Chemises": "https://www.net-a-porter.com/en-jp/shop/lingerie/camisoles-and-chemises",
+      "Hosiery": "https://www.net-a-porter.com/en-jp/shop/lingerie/hosiery",
+      "Lingerie Accessories": "https://www.net-a-porter.com/en-jp/shop/lingerie/lingerie-accessories",
+      "Matching Separates": "https://www.net-a-porter.com/en-jp/shop/lingerie/matching-separates",
+      "Robes": "https://www.net-a-porter.com/en-jp/shop/lingerie/robes",
+      "Shapewear": "https://www.net-a-porter.com/en-jp/shop/lingerie/shapewear",
+      "Sleepwear": "https://www.net-a-porter.com/en-jp/shop/lingerie/sleepwear"
+    },
+    "Loungewear": {
+      "Bottoms": "https://www.net-a-porter.com/en-jp/shop/loungewear/bottoms",
+      "Dresses": "https://www.net-a-porter.com/en-jp/shop/loungewear/dresses",
+      "Jumpsuits": "https://www.net-a-porter.com/en-jp/shop/loungewear/jumpsuits",
+      "Knitwear": "https://www.net-a-porter.com/en-jp/shop/loungewear/knitwear",
+      "Sets": "https://www.net-a-porter.com/en-jp/shop/loungewear/sets",
+      "Tops": "https://www.net-a-porter.com/en-jp/shop/loungewear/tops"
+    },
+    "Matching Separates":{
+      "Matching Separates": "https://www.net-a-porter.com/en-jp/shop/clothing/matching-separates"
+    },
+    "Pants": {
+      "Flared": "https://www.net-a-porter.com/en-jp/shop/clothing/pants/flared",
+      "Leggings": "https://www.net-a-porter.com/en-jp/shop/clothing/pants/leggings",
+      "Skinny Leg": "https://www.net-a-porter.com/en-jp/shop/clothing/pants/skinny-leg",
+      "Straight Leg": "https://www.net-a-porter.com/en-jp/shop/clothing/pants/straight-leg",
+      "Tapered": "https://www.net-a-porter.com/en-jp/shop/clothing/pants/tapered",
+      "Track Pants": "https://www.net-a-porter.com/en-jp/shop/clothing/pants/track-pants",
+      "Wide Leg": "https://www.net-a-porter.com/en-jp/shop/clothing/pants/wide-leg"
+    },
+    "Shorts": {
+      "Shorts": "https://www.net-a-porter.com/en-jp/shop/clothing/shorts/shorts"
+    },
+    "Skirts": {
+      "Knee Length Skirts": "https://www.net-a-porter.com/en-jp/shop/clothing/skirts/knee-length-skirts",
+      "Maxi Skirts": "https://www.net-a-porter.com/en-jp/shop/clothing/skirts/maxi-skirts",
+      "Midi Skirts": "https://www.net-a-porter.com/en-jp/shop/clothing/skirts/midi-skirts",
+      "Mini Skirts": "https://www.net-a-porter.com/en-jp/shop/clothing/skirts/mini-skirts"
+    },
+    "Sport": {
+      "Dresses": "https://www.net-a-porter.com/en-jp/shop/sport/dresses",
+      "Knitwear": "https://www.net-a-porter.com/en-jp/shop/sport/knitwear",
+      "Leggings": "https://www.net-a-porter.com/en-jp/shop/sport/leggings",
+      "One-Piece": "https://www.net-a-porter.com/en-jp/shop/sport/one-piece",
+      "Outerwear": "https://www.net-a-porter.com/en-jp/shop/sport/outerwear",
+      "Pants": "https://www.net-a-porter.com/en-jp/shop/sport/pants",
+      "Shorts": "https://www.net-a-porter.com/en-jp/shop/sport/shorts",
+      "Skirts": "https://www.net-a-porter.com/en-jp/shop/sport/skirts",
+      "Swimwear": "https://www.net-a-porter.com/en-jp/shop/sport/swimwear",
+      "Tops": "https://www.net-a-porter.com/en-jp/shop/sport/tops"
+    },
+    "Suits": {
+      "Jackets": "https://www.net-a-porter.com/en-jp/shop/suits/jackets",
+      "Pants": "https://www.net-a-porter.com/en-jp/shop/suits/pants",
+      "Shorts": "https://www.net-a-porter.com/en-jp/shop/suits/shorts",
+      "Skirts": "https://www.net-a-porter.com/en-jp/shop/suits/skirts"
+    },
+    "Swimwear and Beachwear": {
+      "Beach Dresses": "https://www.net-a-porter.com/en-jp/shop/swimwear-and-beachwear/beach-dresses",
+      "Bikini Bottoms": "https://www.net-a-porter.com/en-jp/shop/swimwear-and-beachwear/bikini-bottoms",
+      "Bikini Sets": "https://www.net-a-porter.com/en-jp/shop/swimwear-and-beachwear/bikini-sets",
+      "Bikini Tops": "https://www.net-a-porter.com/en-jp/shop/swimwear-and-beachwear/bikini-tops",
+      "Coverups": "https://www.net-a-porter.com/en-jp/shop/swimwear-and-beachwear/coverups",
+      "One-Piece": "https://www.net-a-porter.com/en-jp/shop/swimwear-and-beachwear/one-piece"
+    },
+    "Tops": {
+      "Blouses": "https://www.net-a-porter.com/en-jp/shop/clothing/tops/blouses",
+      "Bodysuits": "https://www.net-a-porter.com/en-jp/shop/clothing/tops/bodysuits",
+      "Cropped": "https://www.net-a-porter.com/en-jp/shop/clothing/tops/cropped",
+      "Shirts": "https://www.net-a-porter.com/en-jp/shop/clothing/tops/shirts",
+      "Sweatshirts and Hoodies": "https://www.net-a-porter.com/en-jp/shop/clothing/tops/sweatshirts-and-hoodies",
+      "T-Shirts": "https://www.net-a-porter.com/en-jp/shop/clothing/tops/t-shirts",
+      "Tanks and Camis": "https://www.net-a-porter.com/en-jp/shop/clothing/tops/tanks-and-camis",
+      "Turtleneck": "https://www.net-a-porter.com/en-jp/shop/clothing/tops/turtleneck"
+    }
+  }
+}
+
+

@@ -1,0 +1,87 @@
+{
+  "women": {
+    "Dressed": {
+      "Casual Dresses": "https://en.zalando.de/womens-clothing-summer-dresses/",
+      "Evening Dresses": "https://en.zalando.de/womens-clothing-cocktail-dresses/",
+      "Occasion Dresses": "https://en.zalando.de/occasion-dresses/",
+      "Shirt Dresses": "https://en.zalando.de/womens-clothing-shirt-dresses/",
+      "Jersey Dresses": "https://en.zalando.de/jersey-dress/",
+      "Shift Dresses": "https://en.zalando.de/women-clothing-shift-dresses/",
+      "Maxi Dresses": "https://en.zalando.de/womens-clothing-maxi-dresses/",
+      "Denim Dresses": "https://en.zalando.de/womens-clothing-denim-dresses/",
+      "Knitted Dresses": "https://en.zalando.de/knit-dress/",
+      "Dirndl Dresses": "https://en.zalando.de/dirndl/"
+    },
+    "T-shirts & tops": {},
+    "Trousers": {},
+    "Jeans": {},
+    "Shirts & Blouses": {},
+    "Jackets & Blazers": {},
+    "Swimwear": {},
+    "Sweatshirts & Hoodies": {},
+    "Skirts": {},
+    "Knitwear & Cardigans": {},
+    "Sportswear": {},
+    "Shorts": {},
+    "Jumpsuits": {},
+    "Coats": {},
+    "Underwear": {},
+    "Nightwear & Loungewear": {},
+    "Socks & Tights": {}
+  },
+  "men": {
+    "T-shirts & Polos": {
+      "Basic T-shirts": "https://en.zalando.de/mens-clothing-shirts-basic/",
+      "Printed T-shirts": "https://en.zalando.de/men-clothing-shirts-print/",
+      "Tank Tops": "https://en.zalando.de/men-clothing-shirts-tops/",
+      "Polo Shirts": "https://en.zalando.de/men-clothing-shirts-polo-shirts/",
+      "Long-sleeved Tops": "https://en.zalando.de/mens-clothing-shirts-long-sleeves/",
+      "Sports T-shirts": "https://en.zalando.de/men-clothing-shirts-sport/"
+    },
+    "Shirts": {
+      "Casual Shirts": "https://en.zalando.de/mens-clothing-casual-shirts/",
+      "Business Shirts": "https://en.zalando.de/mens-clothing-business-shirts/"
+    },
+    "Sweatshirts & Hoodies": {
+      "Hoodies": "https://en.zalando.de/mens-clothing-pullovers-hoodies/",
+      "Sweatshirts": "https://en.zalando.de/sweatshirts-mens/",
+      "Sweat jackets": "https://en.zalando.de/sweat-jackets-mens/",
+      "Fleece pullover": "https://en.zalando.de/fleece-pullovers-men/"
+    },
+    "Trousers": {
+      "Chinos": "https://en.zalando.de/mens-clothing-trousers-chinos/",
+      "Smart Trousers": "https://en.zalando.de/men-clothing-trousers-slacks/",
+      "Cargo Trousers": "https://en.zalando.de/mens-clothing-trousers-cargo-trousers/",
+      "Joggers": "https://en.zalando.de/mens-clothing-trousers-jogging-bottoms/",
+      "Dungarees": "https://en.zalando.de/mens-clothing-trousers-dungarees/"
+    },
+    "Jeans": {},
+    "Shorts": {},
+    "Jackets": {},
+    "Knitwear": {},
+    "Sportswear": {},
+    "Tracksuits & Joggers": {},
+    "Suits & Tailoring": {},
+    "Coats": {},
+    "Underwear & Socks": {},
+    "Swimwear": {},
+    "Loungewear & Sleepwear": {}
+  },
+  "kids": {
+    "T-shirts & tops": {},
+    "Dresses": {},
+    "Trousers": {},
+    "Swimwear": {},
+    "Outerwear": {},
+    "Sweatshirts & Knitwear": {},
+    "Underwear & Nightwear": {},
+    "Onepieces & Sets": {},
+    "Shorts": {},
+    "Skirts": {},
+    "Sportswear": {},
+    "Jeans": {},
+    "Socks": {},
+    "Suits & Blazers": {},
+    "Baby gifts": {}
+  }
+}

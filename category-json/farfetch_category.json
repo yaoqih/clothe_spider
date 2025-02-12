@@ -1,0 +1,207 @@
+{
+  "women": {
+    "Tops": {
+      "Blouses": "136101",
+      "Cardigans": "136147",
+      "Hoodies": "136157",
+      "Polo Tops": "136093",
+      "Sweaters": "136149",
+      "Shirts": "136099",
+      "T-Shirts & Jersey Shirts": "136091",
+      "Vests & Tank Tops": "136137",
+      "Tunic Tops & Kaftans": "136466"
+    },
+    "Beachwear": {
+      "Beach Accessories": "136296",
+      "Beach Cover-Ups": "136298",
+      "Beach Dresses": "136295",
+      "Bikinis": "136294",
+      "One-Pieces": "136300"
+    },
+    "Coats": {
+      "Capes": "136238",
+      "Double Breasted & Peacoats": "136239",
+      "Faux Fur & Shearling Coats": "136240",
+      "Leather Coats": "136241",
+      "Military Coats": "136242",
+      "Oversized Coats": "136497",
+      "Parkas": "136242",
+      "Single Breasted Coats": "136481",
+      "Irench Coats & Raincoats": "136244"
+    },
+    "Denim": {
+      "Bootcut Jeans": "136177",
+      "Boyfriend Jeans": "136185",
+      "Cropped Jeans": "136257",
+      "Denim Jackets": "136258",
+      "Denim Leggings": "136259",
+      "Denim Skirts": "136262",
+      "Flares & Bell Bottom Jeans": "136183",
+      "Jean Shorts": "136261",
+      "Skinny Jeans": "136175",
+      "Straight-Leg Jeans": "136179",
+      "Tapered Jeans": "136187",
+      "Wide-Leg Jeans": "136181"
+    },
+    "Jackets": {
+      "Biker Jackets": "136228",
+      "Blazers": "136229",
+      "Capes": "136230",
+      "Cropped Jackets": "136482",
+      "Denim Jackets": "136231",
+      "Down Jackets": "136235",
+      "Faux Fur & Shearling Jackets": "136495",
+      "Fitted Jackets": "136491",
+      "Leather Jackets": "136232",
+      "Military Jackets": "136233",
+      "Oversized Jackets": "136234",
+      "Tweed Jackets": "136490",
+      "Varsity Jackets": "136236",
+      "Waistcoats & Gilets": "136237"
+    },
+    "Knits": {
+      "Cardi-Coats": "136246",
+      "Cardigans": "136247",
+      "Knitted Skirts": "136250",
+      "Knitted Sweaters": "136251",
+      "Knitted Tops": "136252",
+      "Knitted Trousers": "136249",
+      "Sweater Dresses": "136248"
+    },
+    "Dresses": {
+      "Bridal Dresses": "136195",
+      "Cocktail, & Party Dresses": "136193",
+      "Day Dresses": "136189",
+      "Evening Dresses": "136191",
+      "Sundresses": "136225"
+    },
+    "Rompers": {
+      "Full Length": "136254",
+      "Playsuits": "136255"
+    },
+    "Shorts": {
+      "Knee-Length Shorts": "136275",
+      "Leather & Faux Leather Shorts": "141244",
+      "Short & Mini Shorts": "141569",
+      "Short Shorts": "136274",
+      "Tailored Shorts": "141436"
+    },
+    "Tailoring": {
+      "Evening Suits": "136280",
+      "Suit Jackets": "136281",
+      "Suit Skirts": "136282",
+      "Suit Trousers": "136284",
+      "Trouser Suits": "136283"
+    },
+    "Pants": {
+      "Cropped Pants": "136263",
+      "Flared & BellBottom Pants": "136264",
+      "High Waisted Pants": "136265",
+      "Leggings": "136089",
+      "Skinny Pants": "136267",
+      "Slacks": "136270",
+      "Slim Pants": "136268",
+      "Straight-Leg Pants": "136269",
+      "Sweatpants": "136272",
+      "Tapered Pants": "136271",
+      "Wide-Leg Pants": "136273"
+    },
+    "Skirts": {
+      "ALine Skirts": "136103",
+      "Asymmetric & Draped Skirts": "136105",
+      "Fitted Skirts": "136488",
+      "Full Skirts": "136279",
+      "High-Waisted Skirts": "136107",
+      "Pencil Skirts": "136276",
+      "Pleated Skirts": "136277",
+      "Straight Skirts": "136278"
+    }
+  },
+  "men": {
+    "Coats": {
+      "Double Breasted Coats": "136412",
+      "Down Coats": "136416",
+      "Duffle Coats": "136415",
+      "leather Coats": "136414",
+      "Parkas": "136417",
+      "Peacoats": "139363",
+      "Raincoats": "136413",
+      "Single Breasted Coats": "136418",
+      "Trench Coats": "136419"
+    },
+    "Denim" : {
+      "Bootcut Jeans": "136420",
+      "Cropped Jeans": "136421",
+      "Denim Shorts": "136431",
+      "Drop-Crotch Jeans": "136422",
+      "Regular & Straight-Leg Jeans": "136424",
+      "Relaxed Fit Jeans": "136423",
+      "Skinny Jeans": "136425",
+      "Slim-Fit Jeans": "136426",
+      "Tapered Jeans": "136427",
+      "Wide-Leg Jeans": "136428"
+    },
+    "Jackets": {
+      "Biker Jackets": "136400",
+      "Blazers": "136402",
+      "Bomber Jackets": "136468",
+      "Denim Jackets": "136403",
+      "Down Jackets": "136407",
+      "Hooded Jackets": "136404",
+      "Leather Jackets": "136405",
+      "Lightweight Jackets": "136401",
+      "Military Jackets": "136406",
+      "Shirt Jackets": "136408",
+      "Sport Jackets & Windbreakers": "136409",
+      "Suit & Dinner Jackets": "136410",
+      "Waistcoats & Gilets": "136411"
+    },
+    "Jumpsuits": {"Jumpsuits": "136455"},
+    "Polo Shirts": {"Polo Shirts": "136333"},
+    "Shirts": {"Shirts": "136331"},
+    "Suits": {
+      "Double Breasted Suits": "139847",
+      "Single Breasted Suits": "136451",
+      "Suit Jackets": "136453",
+      "Tuxedos & Dinner Suits": "136452"
+    },
+    "Sweatshirts & Knitwear": {
+      "Cardigans": "136399",
+      "Hoodies": "136398",
+      "Knitted Sweaters": "136396",
+      "Sweatshirts": "136397"
+    },
+    "T-Shirts & Vests": {
+      "T-Shirts": "136394",
+      "Vests & Tank Tops": "136395"
+    },
+    "Swimwear": {
+      "Beach Accessories": "136461",
+      "Swim & Board Shorts": "136465",
+      "Swimming Trunks": "136463"
+    },
+    "Shorts": {
+      "Bermuda Shorts": "136443",
+      "Cargo Shorts": "136444",
+      "Deck Shorts": "136446",
+      "Denim Shorts": "136447",
+      "Drop-Crotch Shorts": "136448",
+      "Khaki Shorts": "136445",
+      "Tailored Shorts": "136449",
+      "Track & Running Shorts": "136450"
+    },
+    "Pants": {
+      "Chinos": "136432",
+      "Cropped Pants": "136433",
+      "Drop Crotch Pants": "136434",
+      "Legging": "136435",
+      "Loose Fit Pants": "136436",
+      "Regular-Fit & Straight Leg Pants": "136437",
+      "Skinny Pants": "136438",
+      "Sweatpants": "136441",
+      "Tailored Pants": "136439",
+      "Tapered Pants": "136440",
+      "Wide Leg Pants": "136442"
+    }
+  }
+}
