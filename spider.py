@@ -18,6 +18,15 @@ from playwright.async_api import async_playwright
 # playwright.log.enable(sys.stdout)
 
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.81"
+HEADER = {
+    "Accept-Language": "en-US,en;q=0.9",
+    'Accept-Encoding': 'gzip, deflate, br',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'Connection': 'keep-alive',
+    'Sec-Fetch-Dest': 'document',
+    'Sec-Fetch-Mode': 'navigate',
+    'Sec-Fetch-Site': 'same-origin',
+}
 
 class Spider:
     def __init__(self, test_mode=False):
@@ -31,6 +40,7 @@ class Spider:
         #  - num_done: 已爬取的商品数量
         #  - num_new: 新爬取的商品数量
         self.log_info = dict()
+        self.next_page_click = False
 
     @staticmethod
     async def read_json(json_file):
@@ -143,8 +153,7 @@ class Spider:
             print(message)
 
     async def category_spider(self, gender: str, category: str, sub_category: str = None, headless=False,
-                              semaphore=asyncio.Semaphore(5),
-                              next_page_click=True):
+                              semaphore=asyncio.Semaphore(5)):
         """
         用来爬去一个品类的服装页面，该页面应该包含商品列表、页码/总页数、换页按钮等元素
         :param semaphore: 限制最大并行数
@@ -157,14 +166,7 @@ class Spider:
             async with async_playwright() as playwright:
                 browser = await playwright.chromium.launch(headless=headless, args=['--start-maximized'])
                 context = await browser.new_context(
-                    extra_http_headers={"Accept-Language": "en-US,en;q=0.9",
-                                        'Accept-Encoding': 'gzip, deflate, br',
-                                        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-                                        'Connection': 'keep-alive',
-                                        'Sec-Fetch-Dest': 'document',
-                                        'Sec-Fetch-Mode': 'navigate',
-                                        'Sec-Fetch-Site': 'same-origin',
-                                        },
+                    extra_http_headers=HEADER,
                     user_agent=USER_AGENT,
                     locale="en-GB",  # zh-CN、en-GB
                     no_viewport=True,
@@ -262,9 +264,10 @@ class Spider:
                     # 如果存在下一页按钮，则点击下一页按钮
                     try:
                         next_page_btn = await self.next_page_btn(page)
+                        print(next_page_btn)
                         if next_page_btn:
                             old_url = page.url
-                            if next_page_click:
+                            if self.next_page_click:
                                 await next_page_btn.click()
                             else:
                                 await page.goto(next_page_btn, wait_until="domcontentloaded")
@@ -283,7 +286,7 @@ class Spider:
                         self.failed_tasks.append([gender, category, sub_category])
                         break
 
-    async def async_run(self, root: str, category_json: str, concurrency: int = 2, headless=False, next_page_click=True):
+    async def async_run(self, root: str, category_json: str, concurrency: int = 2, headless=False):
         self.root = root
         with open(category_json, 'r') as f:
             self.category_urls = json.load(f)
@@ -294,14 +297,12 @@ class Spider:
             for category in self.category_urls[gender]:
                 if isinstance(self.category_urls[gender][category], str):
                     task = asyncio.create_task(self.category_spider(gender, category,
-                                                                    semaphore=semaphore, headless=headless,
-                                                                    next_page_click=next_page_click))
+                                                                    semaphore=semaphore, headless=headless))
                     task_list.append(task)
                 else:
                     for sub_category in self.category_urls[gender][category]:
                         task = asyncio.create_task(self.category_spider(gender, category, sub_category,
-                                                                        semaphore=semaphore, headless=headless,
-                                                                        next_page_click=next_page_click))
+                                                                        semaphore=semaphore, headless=headless))
                         task_list.append(task)
 
         await asyncio.gather(*task_list)
@@ -309,8 +310,7 @@ class Spider:
         task_list = [asyncio.create_task(self.log())]
         for gender, category, sub_category in self.failed_tasks:
             task = asyncio.create_task(self.category_spider(gender, category,
-                                                            semaphore=semaphore, headless=headless,
-                                                            next_page_click=next_page_click))
+                                                            semaphore=semaphore, headless=headless))
             task_list.append(task)
         await asyncio.gather(*task_list)
 
@@ -373,9 +373,9 @@ class ItalistSpider(Spider):
         basic_info = await page.query_selector("div[class*='product-actions-sticky']")
         assert basic_info, "未找到商品详情页的div class product-actions-sticky, 也许页面结构已经改变！"
         # 品牌名 h2 class="jsx-2052347248 brand"
-        brand = await basic_info.query_selector("h2[class*='jsx-2052347248 brand']")
+        brand = await basic_info.query_selector("h2[class*='brand']")
         # 品类 <h1 class="jsx-2052347248 model">Crewneck Long-sleeved Jumpsuit</h1>
-        item_category = await basic_info.query_selector("h1[class*='jsx-2052347248 model']")
+        item_category = await basic_info.query_selector("h1[class*='model']")
         # 如果存在则添加到 item_info 中
         # if color:
         #     item_info["color"] = await color.inner_text()
@@ -383,22 +383,22 @@ class ItalistSpider(Spider):
             item_info["brand"] = await brand.inner_text()
         if item_category:
             item_info["item"] = await item_category.inner_text()
-
+        information={}
         # 获取 div class="jsx-3874064703 accordion-heading" 或 div class="jsx-862246428 accordion-content"
-        accordion_divs = await basic_info.query_selector_all("div[class*='jsx-3874064703 accordion-heading'], div[class*='jsx-862246428 accordion-content']")
+        accordion_divs = await basic_info.query_selector_all("div[class*='accordion-heading'], div[class*='accordion-content']")
         for accordion_div in accordion_divs:
             if "accordion-heading" in await accordion_div.get_attribute("class"):
                 key_ = await accordion_div.inner_text()
-                item_info[key_] = []
+                information[key_] = []
             elif key_:
                 text = await accordion_div.inner_text()
-                if text not in item_info[key_]:
-                    item_info[key_].append(text)
-
+                if text not in information[key_]:
+                    information[key_].append(text)
+        item_info['information']=information
         # 获取 carousel_div 所有 img 标签的 src 属性
         # div class ="jsx-2140263580 carousel-item"
         # div class="jsx-1976571714 image-product-info-container"
-        img_div = await page.query_selector("div[class*='jsx-1976571714 image-product-info-container']")
+        img_div = await page.query_selector("div[class*='image-product-info-container']")
         imgs = await img_div.query_selector_all("img")
         urls = await asyncio.gather(*[img.get_attribute("src") for img in imgs])
         # 筛选出 jpg 图片
@@ -444,8 +444,13 @@ class FARFETCHSpider(Spider):
         获取下一页按钮
         """
         # a data-testid="page-next" and aria-hidden="false"
-        next_page_btn = await page.query_selector("a[data-testid='page-next'][aria-hidden='false']")
-        return next_page_btn
+        #<a aria-disabled="false" href="?page=2" data-component="PaginationNextActionButton" class="ltr-nlzw0a" data-loading="false"><span data-component="PaginationButtonLabel" class="ltr-8zv7vs">下一页</span><svg data-component="Icon" class="ltr-15kvush"><use xlink:href="#iconLoaded-chevronRightSmall"></use></svg></a>
+        next_page_btn = await page.query_selector("a[data-component='PaginationNextActionButton']")
+        link =await next_page_btn.get_attribute('href')
+        link = page.url + link
+        return link
+        # return next_page_btn
+
 
     # TODO: 以下仅适用于 FARFETCH
     async def id_from_url(self, url):
@@ -458,7 +463,9 @@ class FARFETCHSpider(Spider):
         """
         # 获取所有 li 标签包含 data-testid="productCard"
         # section id="portal-slices-listing"
-        block = await page.query_selector("section[id='portal-slices-listing']")
+        # catalog-grid
+        # block = await page.query_selector("section[id='portal-slices-listing']")
+        block = await page.query_selector("ul[id='catalog-grid']")
         assert block, ("未找到类别页面的 section[id='portal-slices-listing'], 可能以下原因：\n"
                        "1. 网站结构变动，需重新编写爬虫 items_in_page 代码；\n"
                        "2. 404 页面，访问过多导致被限流；")
@@ -469,6 +476,7 @@ class FARFETCHSpider(Spider):
         items = [item for item in items if item]  # 去除 None item
         items = ["https://www.farfetch.cn" + item if not item.startswith('http') else item for item in
                  items]  # 前面加上 https://www.farfetch.cn
+        # print(items)
         return items
 
     # TODO: 以下仅适用于 FARFETCH
@@ -484,16 +492,16 @@ class FARFETCHSpider(Spider):
         item_details = await page.query_selector("div[id='tabpanel-0'], div[data-component='AccordionPanel']")
         assert item_details, "未找到商品详情页的 TabPanels, 也许页面结构已经改变！"
         # 系列 <p class="ltr-xkwp1l-Body e1m5ny110">
-        series = await item_details.query_selector("p[class*='ltr-xkwp1l-Body']")
+        series = await item_details.query_selector("p[class*='ltr-'][class*='-Body']")
         if series:
             item_info["series"] = await series.inner_text()
         # Key   h4 class="ltr-2pfgen-Body-BodyBold"  Values  p class="ltr-4y8w0i-Body"
         head_texts = await item_details.query_selector_all(
-            "a[class*='ltr-8gbn9h-Heading-HeadingBold'], p[data-component*='Body'], li[data-component*='Body'], h4[data-component*='BodyBold']")
+            "a[class*='ltr-'][class*='-Heading-HeadingBold'], p[data-component*='Body'], li[data-component*='Body'], h4[data-component*='BodyBold']")
         start_index = 0
         # 找到第一个 a[class*='ltr-8gbn9h-Heading-HeadingBold'] 的 inner_text 作为 品牌
         for i in range(len(head_texts)):
-            if "ltr-8gbn9h-Heading-HeadingBold" in await head_texts[i].get_attribute("class"):
+            if "-Heading-HeadingBold" in await head_texts[i].get_attribute("class") and "ltr-" in await head_texts[i].get_attribute("class"):
                 item_info["brand"] = await head_texts[i].inner_text()
                 start_index = i + 1
                 break
@@ -509,7 +517,7 @@ class FARFETCHSpider(Spider):
         key_ = None
         information = dict()
         for i in range(start_index, len(head_texts)):
-            if "ltr-2pfgen-Body-BodyBold" in await head_texts[i].get_attribute("class"):
+            if "ltr-" in await head_texts[i].get_attribute("class") and '-Body-BodyBold' in await head_texts[i].get_attribute("class"):
                 key_ = await head_texts[i].inner_text()
                 information[key_] = []
             elif key_:
@@ -519,12 +527,12 @@ class FARFETCHSpider(Spider):
         item_info["information"] = information
 
         # 查找页面中所有图片，class="ltr-1w2up3s" 的 img, 该 img 的 src 属性即为图片的 url, 但是有重复的
-        imgs = await page.query_selector_all("img[class*='ltr-1w2up3s']")
-        assert imgs, "未找到商品详情页的 img[class*='ltr-1w2up3s'], 也许页面结构已经改变！"
+        imgs = await page.query_selector_all("img[class*='ltr-']")
+        assert imgs, "未找到商品详情页的 img[class*='ltr-'], 也许页面结构已经改变！"
         urls = await asyncio.gather(*[img.get_attribute("src") for img in imgs])
         urls = list(dict.fromkeys(urls))  # 去重，但不改变顺序
-        item_info["image_urls"] = urls
-
+        item_info["image_urls"] = [url for url in urls if 'cdn-static'not in url]#去除小图标
+        # print(item_info)
         return item_info
 
 
@@ -538,8 +546,11 @@ class YOOXSpider(Spider):
         获取下一页按钮
         """
         # Span class="triangle-arrow triangle-arrow-right"
-        next_page_btn = await page.query_selector("span[class*='triangle-arrow-right']")
-        return next_page_btn
+        next_page_btn = await page.query_selector("li[class*='next']")
+        if next_page_btn:
+            next_page_btn=await next_page_btn.query_selector("a")
+            next_page_url=await next_page_btn.get_attribute("href")
+        return next_page_url
 
     # TODO: 以下仅适用于 YOOX
     async def id_from_url(self, url):
@@ -551,7 +562,7 @@ class YOOXSpider(Spider):
         获取当前页面的所有商品的 url
         """
         # 获取所有 class 标签包含 itemContainer 的 div
-        items = await page.query_selector_all("div[class*='itemContainer']")
+        items = await page.query_selector_all("li[class='item']")
         # 获取 所有 item 第一个 a 标签的 href 属性
         items = await asyncio.gather(*[item.query_selector("a") for item in items])
         items = await asyncio.gather(*[item.get_attribute("href") for item in items])
@@ -568,14 +579,14 @@ class YOOXSpider(Spider):
         # TODO: 以下仅适用于 YOOX
         item_info = dict()
         # 基础信息 class="ItemInfo_item-info__KcZIo" 的 div
-        basic_info = await page.query_selector("div[class*='ItemInfo_item-info__KcZIo']")
+        basic_info = await page.query_selector("div[class*='ItemInfo_item-info']")
         assert basic_info, "未找到商品详情页的 ItemInfo_item-info__KcZIo, 也许页面结构已经改变！"
         # 颜色 div class="MuiBody2-body2 ColorPicker_color-selected-title__oB1iK"
-        color = await page.query_selector("div[class*='ColorPicker_color-selected-title__oB1iK']")
-        brand = await basic_info.query_selector("h1[class*='MuiTitle3-title3']")  # 品牌名，class 为 MuiTitle3-title3的 h1
+        color = await page.query_selector("div[class*='ColorPicker_color-selected-title']")
+        brand = await basic_info.query_selector("h1[class*='ItemInfo_designer']")  # 品牌名，class 为 MuiTitle3-title3的 h1
         series = await basic_info.query_selector("b")  # 系列，品牌同级的下一个h2 class="MuiBody1-body1"
         item_category = await basic_info.query_selector(
-            "h2[class='MuiBody1-body1 ItemInfo_microcat__ffpIA']")  # 品类 class="MuiBody1-body1 ItemInfo_microcat__ffpIA"
+            "h2[class*='ItemInfo_microcat']")  # 品类 class="MuiBody1-body1 ItemInfo_microcat__ffpIA"
         # 如果存在则添加到 item_info 中
         if color:
             item_info["color"] = await color.inner_text()
@@ -587,16 +598,16 @@ class YOOXSpider(Spider):
             item_info["item"] = await item_category.inner_text()
 
         # 获取页面中 class="item_details-container__u52Wd" 的第一个 div
-        item_details = await page.query_selector("div[class*='item_details-container__u52Wd']")
+        item_details = await page.query_selector("div[class*='item_details-container']")
         assert item_details, "未找到商品详情页的 item_details-container__u52Wd, 也许页面结构已经改变！"
 
         # 获取item_details中所有 class 为 MuiTitle4-title4 或 MuiBody1-body1 的 span
         information = dict()
-        spans = await item_details.query_selector_all("span[class*='MuiTitle4-title4'], span[class*='MuiBody1-body1']")
+        spans = await item_details.query_selector_all("span[class*='Muititle4-title4'], span[class*='MuiBody1-body1']")
         key_ = None
         for span in spans:
             # 如果 span 的 class 是 MuiTitle4-title4 则作为 key
-            if "MuiTitle4-title4" in await span.get_attribute("class"):
+            if "Muititle4-title4" in await span.get_attribute("class"):
                 key_ = await span.inner_text()
                 information[key_] = []
             elif key_:
@@ -618,7 +629,7 @@ class YOOXSpider(Spider):
 class ADIDASSpider(Spider):
     def __init__(self):
         super().__init__()
-
+        self.next_page_click =True
     # 以下仅适用于 ADIDAS
     async def next_page_btn(self, page):
         """
@@ -894,7 +905,7 @@ class I24SSpider(Spider):
             key_ = content[:(pos := content.find(':'))].strip()
             value = content[pos+1:].strip()
             item_info[key_] = value
-        # print(item_info)
+        print(item_info)
 
 
         # 获取 carousel_div 所有 img 标签的 src 属性
@@ -921,7 +932,11 @@ class LUISAVIAROMASpider(Spider):
         """
         # a aria-label="Next"
         next_page_btn = await page.query_selector("a[aria-label='Next']")
-        return next_page_btn
+        if next_page_btn:
+            next_page_btn=await next_page_btn.query_selector("a")
+            next_page_url="https://www.luisaviaroma.cn"+await next_page_btn.get_attribute("href")
+
+        return next_page_url
 
     # TODO: 以下仅适用于 Luisa Via Roma
     async def id_from_url(self, url):
@@ -942,7 +957,7 @@ class LUISAVIAROMASpider(Spider):
         items = await asyncio.gather(*[item.query_selector("a") for item in items])
         items = await asyncio.gather(*[item.get_attribute("href") for item in items])
         items = [item for item in items if item]  # 去除 None item
-        # pprint(items)
+        pprint(items)
         items = ["https://www.luisaviaroma.cn" + item if not item.startswith('http') else item for item in
                  items]
         return items
@@ -985,7 +1000,7 @@ class LUISAVIAROMASpider(Spider):
         item_info = dict()
         item_info["brand"] = brand
         item_info["item"] = item
-        item_info["details"] = detail_info_list
+        item_info["information"] = detail_info_list
         item_info["image_urls"] = precessed_links
         return item_info
 
@@ -1048,7 +1063,7 @@ class NetAPorterSpider(Spider):
         color_div = await page.query_selector("span[class*='ProductDetailsColours87__colourName']")
         color = await color_div.inner_text()
         item_info["color"] = color
-        # print(item_info)
+        print(item_info)
         # 2. 细节信息
         # 描述段落 div class="EditorialAccordion87__accordionContent EditorialAccordion87__accordionContent--editors_notes"
         # 点击 div id="EDITORS_NOTES"
@@ -1058,25 +1073,27 @@ class NetAPorterSpider(Spider):
         description = await description_div.query_selector("p")
         description = await description.inner_text()
         item_info["editors_notes"] = description
-        # print(item_info)
+        print(item_info)
         # size&fit div class="EditorialAccordion87__accordionContent EditorialAccordion87__accordionContent--size_and_fit"
         # 点击 div id="SIZE_AND_FIT"
-        await page.click("div[id='SIZE_AND_FIT']")
-        await page.wait_for_selector("div[class*='EditorialAccordion87__accordionContent EditorialAccordion87__accordionContent--size_and_fit']")
-        size_fit_div = await page.query_selector("div[class*='EditorialAccordion87__accordionContent EditorialAccordion87__accordionContent--size_and_fit']")
-        size_fit = await size_fit_div.inner_text()
-        item_info["size_fit"] = size_fit
+        if await page.query_selector("div[id='SIZE_AND_FIT']"):
+            await page.click("div[id='SIZE_AND_FIT']")
+            await page.wait_for_selector("div[class*='EditorialAccordion87__accordionContent EditorialAccordion87__accordionContent--size_and_fit']")
+            size_fit_div = await page.query_selector("div[class*='EditorialAccordion87__accordionContent EditorialAccordion87__accordionContent--size_and_fit']")
+            size_fit = await size_fit_div.inner_text()
+            item_info["size_fit"] = size_fit
         # 细节 div class="EditorialAccordion87__accordionContent EditorialAccordion87__accordionContent--details_and_care"
         # 点击 div id="DETAILS_AND_CARE"
-        await page.click("div[id='DETAILS_AND_CARE']")
-        await page.wait_for_selector("div[class*='EditorialAccordion87__accordionContent EditorialAccordion87__accordionContent--details_and_care']")
-        specifications_div = await page.query_selector("div[class*='EditorialAccordion87__accordionContent EditorialAccordion87__accordionContent--details_and_care']")
-        bullets = await specifications_div.query_selector_all("li")
-        details = []
-        for bullet in bullets:
-            detail = await bullet.inner_text()
-            details.append(detail)
-        item_info["details"] = details
+        if await page.query_selector("div[id='DETAILS_AND_CARE']"):
+            await page.click("div[id='DETAILS_AND_CARE']")
+            await page.wait_for_selector("div[class*='EditorialAccordion87__accordionContent EditorialAccordion87__accordionContent--details_and_care']")
+            specifications_div = await page.query_selector("div[class*='EditorialAccordion87__accordionContent EditorialAccordion87__accordionContent--details_and_care']")
+            bullets = await specifications_div.query_selector_all("li")
+            details = []
+            for bullet in bullets:
+                detail = await bullet.inner_text()
+                details.append(detail)
+            item_info["details"] = details
 
         # 3. 图片 div class="ImageCarousel87__thumbnails ProductDetailsPage87__imageCarouselThumbnails"
         await page.wait_for_selector("div[class*='ImageCarousel87__thumbnails ProductDetailsPage87__imageCarouselThumbnails']")
@@ -1087,7 +1104,7 @@ class NetAPorterSpider(Spider):
         item_info["image_urls"] = image_links
 
         # wait for 1s
-        await asyncio.sleep(1)
+        # await asyncio.sleep(1)
 
         return item_info
 
@@ -1134,15 +1151,17 @@ if __name__ == '__main__':
         'netaporter': [NetAPorterSpider, 'Meta/NetAPorter-Meta', 'category-json/net-a-porter_category.json'],
     }
 
-    platform = 'luisaviaroma'
-    platform = 'farfetch'
-    platform = 'adidas'
-    platform = 'yoox'
-    platform = 'netaporter'
 
+    # platform = 'luisaviaroma'
+    # platform = 'farfetch'
+    # platform = 'adidas'
+    # platform = 'yoox'
+    # platform = 'italist'
+    platform = 'netaporter'
+    concurrency = 1 if platform != "netaporter" else 1
     spider = spider_map[platform][0]()
     loop.run_until_complete(
-        spider.async_run(spider_map[platform][1], spider_map[platform][2], concurrency=4, headless=False)
+        spider.async_run(spider_map[platform][1], spider_map[platform][2], concurrency=concurrency, headless=False)
     )
 
     pass
