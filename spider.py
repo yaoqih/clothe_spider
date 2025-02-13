@@ -1020,7 +1020,10 @@ class NetAPorterSpider(Spider):
         class_ = await next_page_btn.get_attribute("class")
         if "Pagination7__next--disabled" in class_:
             return None
-        return next_page_btn
+        if next_page_btn:
+            next_page_btn=await next_page_btn.query_selector("a")
+            next_page_url=await next_page_btn.get_attribute("href")
+        return next_page_url
 
     # 以下仅适用于 Net-A-Porter
     async def id_from_url(self, url):
@@ -1050,54 +1053,55 @@ class NetAPorterSpider(Spider):
         item_info = {}
         # 1. 基础信息 
         # brand h1 itemprop="brand"
-        await page.wait_for_selector("h1[itemprop='brand']")
-        brand = await page.query_selector("h1[itemprop='brand']")
+        await page.wait_for_selector("h1[class*='ProductInformation'][class*='designer']")
+        brand = await page.query_selector("h1[class*='ProductInformation'][class*='designer']")
         item_info["brand"] = await brand.inner_text()
         # Item 名称 p class="ProductInformation87__name"
-        await page.wait_for_selector("p[class*='ProductInformation87__name']")
-        item_name = await page.query_selector("p[class*='ProductInformation87__name']")
+        await page.wait_for_selector("p[class*='ProductInformation'][class*='name']")
+        item_name = await page.query_selector("p[class*='ProductInformation'][class*='name']")
         item_name = await item_name.inner_text()
         item_info["item"] = item_name
         # 颜色 span class="ProductDetailsColours87__colourName"
-        await page.wait_for_selector("span[class*='ProductDetailsColours87__colourName']")
-        color_div = await page.query_selector("span[class*='ProductDetailsColours87__colourName']")
+        await page.wait_for_selector("span[class*='ProductDetailsColours'][class*='colourName']")
+        color_div = await page.query_selector("span[class*='ProductDetailsColours'][class*='colourName']")
         color = await color_div.inner_text()
         item_info["color"] = color
-        print(item_info)
+        # print(item_info)
         # 2. 细节信息
         # 描述段落 div class="EditorialAccordion87__accordionContent EditorialAccordion87__accordionContent--editors_notes"
         # 点击 div id="EDITORS_NOTES"
         # await page.click("div[id='EDITORS_NOTES']")
-        await page.wait_for_selector("div[class*='EditorialAccordion87__accordionContent EditorialAccordion87__accordionContent--editors_notes']")
-        description_div = await page.query_selector("div[class*='EditorialAccordion87__accordionContent EditorialAccordion87__accordionContent--editors_notes']")
+        information={}
+        await page.wait_for_selector("div[class*='accordionContent--editors_notes']")
+        description_div = await page.query_selector("div[class*='accordionContent--editors_notes']")
         description = await description_div.query_selector("p")
         description = await description.inner_text()
-        item_info["editors_notes"] = description
-        print(item_info)
+        information['editors_notes']= description
+        # print(item_info)
         # size&fit div class="EditorialAccordion87__accordionContent EditorialAccordion87__accordionContent--size_and_fit"
         # 点击 div id="SIZE_AND_FIT"
         if await page.query_selector("div[id='SIZE_AND_FIT']"):
             await page.click("div[id='SIZE_AND_FIT']")
-            await page.wait_for_selector("div[class*='EditorialAccordion87__accordionContent EditorialAccordion87__accordionContent--size_and_fit']")
-            size_fit_div = await page.query_selector("div[class*='EditorialAccordion87__accordionContent EditorialAccordion87__accordionContent--size_and_fit']")
+            await page.wait_for_selector("div[class*='accordionContent--size_and_fit']")
+            size_fit_div = await page.query_selector("div[class*='accordionContent--size_and_fit']")
             size_fit = await size_fit_div.inner_text()
-            item_info["size_fit"] = size_fit
+            information["size_fit"] = size_fit
         # 细节 div class="EditorialAccordion87__accordionContent EditorialAccordion87__accordionContent--details_and_care"
         # 点击 div id="DETAILS_AND_CARE"
         if await page.query_selector("div[id='DETAILS_AND_CARE']"):
             await page.click("div[id='DETAILS_AND_CARE']")
-            await page.wait_for_selector("div[class*='EditorialAccordion87__accordionContent EditorialAccordion87__accordionContent--details_and_care']")
-            specifications_div = await page.query_selector("div[class*='EditorialAccordion87__accordionContent EditorialAccordion87__accordionContent--details_and_care']")
+            await page.wait_for_selector("div[class*='--details_and_care']")
+            specifications_div = await page.query_selector("div[class*='accordionContent--details_and_care']")
             bullets = await specifications_div.query_selector_all("li")
             details = []
             for bullet in bullets:
                 detail = await bullet.inner_text()
                 details.append(detail)
-            item_info["details"] = details
-
+            information["details"] = details
+        item_info['information']=information
         # 3. 图片 div class="ImageCarousel87__thumbnails ProductDetailsPage87__imageCarouselThumbnails"
-        await page.wait_for_selector("div[class*='ImageCarousel87__thumbnails ProductDetailsPage87__imageCarouselThumbnails']")
-        pagination_div = await page.query_selector("div[class*='ImageCarousel87__thumbnails ProductDetailsPage87__imageCarouselThumbnails']")
+        await page.wait_for_selector("div[class*='imageCarouselThumbnails']")
+        pagination_div = await page.query_selector("div[class*='imageCarouselThumbnails']")
         images = await pagination_div.query_selector_all("img")
         image_links = await asyncio.gather(*[url.get_attribute("src") for url in images])
         image_links = ["https:"+_ for _ in image_links]
@@ -1149,6 +1153,7 @@ if __name__ == '__main__':
         'luisaviaroma': [LUISAVIAROMASpider, 'Meta/LUISAVIAROMA-Meta', 'category-json/LUISAVIAROMA_category.json'],
         'adidas': [ADIDASSpider, 'Meta/ADIDAS-Meta', 'category-json/adidas_category.json'],
         'netaporter': [NetAPorterSpider, 'Meta/NetAPorter-Meta', 'category-json/net-a-porter_category.json'],
+        'zalando': [ZalandoSpider, 'Meta/ZalandoSpider-Meta', 'category-json/zalando_category.json'],
     }
 
 
@@ -1157,7 +1162,7 @@ if __name__ == '__main__':
     # platform = 'adidas'
     # platform = 'yoox'
     # platform = 'italist'
-    platform = 'netaporter'
+    platform = 'zalando'
     concurrency = 1 if platform != "netaporter" else 1
     spider = spider_map[platform][0]()
     loop.run_until_complete(
